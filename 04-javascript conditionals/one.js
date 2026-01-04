@@ -1,0 +1,149 @@
+// // 
+// // let products = 10;
+// // if (products <= 0){
+// //     console.log("products khtm ho gye hain..")
+// // }
+// // else{
+// //     console.log("prodcuts he")
+// // }
+
+
+// // let weather = prompt("Enter weather...");
+// // if (weather.toLowerCase() === "rainy".toLowerCase()){
+// //     console.log("Take an umbrella")
+// // }
+// // else{
+// //     console.log("Enjoy sunshine")
+// // }
+
+
+// let age = 20;
+// let hasId = true;
+// if (age >= 18){
+//     if (hasId){
+//         console.log("You can go the club")
+//     }
+//     else{
+//         console.log("you need an id")
+//     }
+// }
+// else{
+    
+// }
+
+
+
+// // .............................................................................
+ 
+// // let product = 10;
+// // if (product<0);
+// // {
+// //     console.log("prouduct is in stack");
+    
+// // }
+// // else
+// //      {
+// //     console.log("prouduct is out of stack");
+    
+// // }
+
+
+
+// let Studentage = prompt("Enter the age of student");
+// if(Studentage >=18 && Studentage <= 100 ){
+//     alert ("You can vote");
+   
+    
+// }
+// else{
+//     alert("you can not vote");
+    
+// }
+
+
+
+// let weather = "rainy";
+// if (weather ==="rainy"){
+//     console.log("take an umbrella");
+    
+// }
+// else{
+//     console.log("enjoy the sunshine !");
+    
+// }
+
+
+
+// // if...else if...else (Also called "Else-If Ladder")
+
+// let marks =prompt("Enter Your Marks");
+// if(marks >=90){
+//     console.log("Grade A");
+    
+// }
+// else if (marks >=80){
+// console.log("Grade B");
+
+// }
+// else if (marks >= 70){
+//     console.log("Grade C");
+    
+// }
+// else if (marks >=60){
+//     console.log("Grade D");
+    
+// }
+// else{
+//     console.log("Sorry you are Faill ");
+    
+// }
+
+
+// ...................... if else statment
+
+// let age= 20;
+// if (age >= 20){
+//     console.log("you can drive ");
+    
+// }
+// else{
+//     console.log("you can not drive");
+    
+// }
+
+
+// //   esle if to give multiple if and find the result of the statment
+
+// let marks = 66;
+// if(marks>= 90 && marks <100)
+// {
+//     console.log("Grade A");
+    
+// }
+// else if (marks>= 80 && marks<90)
+// {
+//     console.log("GARDE B");
+    
+// }
+// else if(marks>= 70 && marks<80){
+//     console.log("GRADE C")
+    
+// }
+// else if(marks>=60 && marks<70){
+// console.log("GRADE D")
+
+// }
+// else{
+//     console.log("SORRY YOU ARE FAILL");
+    
+// }
+let age= 8;
+
+if (age>5);{
+    if(age<12)
+    {
+        console.log("child");
+        
+    }
+}
+
