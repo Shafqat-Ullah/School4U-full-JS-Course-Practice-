@@ -7,6 +7,14 @@ console.log("5/5 =" , 5/5);
 console.log("5**5=",5**5);
 
 
+let a = 10;
+let b = 3;
+
+console.log(a + b); // 13
+console.log(a % b); // 1
+
+
+
 // On a shopping website, calculate the total cost of a product when given the price per item (price = 150) and the quantity (quantity = 3). 
 // Also, calculate a 10% discount on the total cost and display the discounted price.
 
