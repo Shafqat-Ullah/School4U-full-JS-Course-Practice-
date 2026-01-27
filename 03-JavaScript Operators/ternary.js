@@ -8,3 +8,13 @@
 // let result = (username && passowerd) ? ("you are login"):("try agin");
 // console.log(result);
 
+
+let age = 20;
+let result = age>=20 ? "you can drive :":"can not drive"
+console.log(result);
+
+
+let username = " ";
+let passowerd = " ";
+let message = (username&&passowerd)? "login succesfully":"tryagain"
+console.log(message);
