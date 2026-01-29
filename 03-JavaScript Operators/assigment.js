@@ -20,4 +20,9 @@ console.log("the - of a is :",a);
 // *=	x *= 2
 
 
+// 2. Can you chain assignment operators?
+
+// let num1,num2,num3;
+// num1=num2=num3=10;
+// console.log(num1,num2 ,num3);
 
