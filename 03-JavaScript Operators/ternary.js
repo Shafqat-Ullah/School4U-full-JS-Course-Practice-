@@ -21,6 +21,24 @@
 
 
 // 3. Even / Odd using ternary operator
-let num = +prompt("Enter a number ")
-let result = (num % 2 ===0) ? "Even Number":"odd number";
-console.log(result);
+// let num = 250;
+// let result = (num % 2 === 0)? "Even Number":"Odd Number "
+// console.log(result);
+
+// 5. Number between 10 and 20 (inclusive)
+// let num = 10;
+// if(num>= 10 && num<= 20)
+// {
+//     console.log( "number is in the range");
+    
+// }
+// else{
+//     console.log("Number is the out of the range");
+    
+
+// }
+
+// 6. Largest of 3 numbers (ternary)
+// let a = 20 ; b = 30; c =50;
+// let result =(a>b && a>c) ? a : (b>c) ? b : c;
+// console.log("Largest Number :", result);
