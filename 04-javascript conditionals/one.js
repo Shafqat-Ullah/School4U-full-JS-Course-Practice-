@@ -192,40 +192,58 @@ if (wether==="raining"){
 // 6. Ternary Operator [? :] (short form)
 
 // 1 if statement 
-let temp = 40;
-if(temp>30){
-    console.log("it,s hot outside ");
+// let temp = 40;
+// if(temp>30){
+//     console.log("it,s hot outside ");
     
-}
+// }
 
-// if...else Statement
+// // if...else Statement
+// let age = 20;
+// if (age >= 18){
+//     console.log("You can Drive");
+    
+// }else{
+//     console.log("you can not drive!");
+    
+// }
+
+
+// // if...else if...else (Also called "Else - If Ladder")Nested if Statements
+
+// let marks = 90;
+// if (marks>= 90){
+//     console.log("Grade : A");
+    
+// }else if (marks>= 80){
+//     console.log("Grade : B");
+    
+// }else if (marks>=70){
+//     console.log("Grade : C");
+    
+// }
+// else if (marks>=60){
+//     console.log("Grade : D");
+    
+// }else{
+//     console.log("You Need more work");
+    
+// }
+
+
+// Nested if Statements
 let age = 20;
-if (age >= 18){
-    console.log("You can Drive");
-    
+let hasId = true;
+if (age>= 20){
+    if(hasId){
+        console.log("You can Enter  the club");
+        
+    }
+    else{
+        console.log("You need ID card");
+        
+    }
 }else{
-    console.log("you can not drive!");
-    
-}
-
-
-// if...else if...else (Also called "Else - If Ladder")Nested if Statements
-
-let marks = 90;
-if (marks>= 90){
-    console.log("Grade : A");
-    
-}else if (marks>= 80){
-    console.log("Grade : B");
-    
-}else if (marks>=70){
-    console.log("Grade : C");
-    
-}
-else if (marks>=60){
-    console.log("Grade : D");
-    
-}else{
-    console.log("You Need more work");
+    console.log("you are too young");
     
 }
