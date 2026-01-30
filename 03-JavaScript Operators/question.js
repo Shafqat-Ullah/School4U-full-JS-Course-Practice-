@@ -12,14 +12,36 @@
 
 // 7. Email & Password check
 
-let StoreEmail = "Shafqat@gmail.com";
-let StorePassword = "Shafqat321";
-let Email = prompt("Enter Your Email");
-let Password = prompt("Enter Your Passoword");
-if (StoreEmail===Email && StorePassword===Password){
-    console.log("Login Successfully");
+// let StoreEmail = "Shafqat@gmail.com";
+// let StorePassword = "Shafqat321";
+// let Email = prompt("Enter Your Email");
+// let Password = prompt("Enter Your Passoword");
+// if (StoreEmail===Email && StorePassword===Password){
+//     console.log("Login Successfully");
     
-}else{
-    console.log("Invalid Email or Password");
+// }else{
+//     console.log("Invalid Email or Password");
     
-}
+// }
+
+// 8. What will be the output of the following JavaScript code?
+
+let a = 5, b = 3, c = 2;
+
+let result = at+ + -- b * c -- - ++a + b -- / -- c;
+
+console.log("a:", a);
+console.log("b:", b);
+console.log("c:", c);
+console.log("result:", result);
+
+
+// let a = 5, b = 3, c = 2;
+
+// let result = a++ + --b * c-- - ++a + b-- / --c;
+
+// console.log("a:", a);
+// console.log("b:", b);
+// console.log("c:", c);
+// console.log("result:", result);
+
