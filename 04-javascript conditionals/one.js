@@ -250,21 +250,28 @@ if (wether==="raining"){
 
 // Switch Statement
 
-let color = "green";
-switch(color){
-    case "red":
-    console.log("Stop the car");
-    break;
-    case "yellow":
-    console.log("Get ready ");
-    break;
-    case "green":
-    console.log("you can go");
-    break
-    default:
-        console.log("Unknown Color");
+// let color = "green";
+// switch(color){
+//     case "red":
+//     console.log("Stop the car");
+//     break;
+//     case "yellow":
+//     console.log("Get ready ");
+//     break;
+//     case "green":
+//     console.log("you can go");
+//     break
+//     default:
+//         console.log("Unknown Color");
         
     
     
     
-}
+// }
+
+
+
+// ternary Operator
+let age = 20;
+let result = (age>= 20)?"you can drive":"You are too young"
+console.log(result);
