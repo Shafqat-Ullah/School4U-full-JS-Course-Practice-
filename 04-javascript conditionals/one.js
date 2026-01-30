@@ -232,18 +232,39 @@ if (wether==="raining"){
 
 
 // Nested if Statements
-let age = 20;
-let hasId = true;
-if (age>= 20){
-    if(hasId){
-        console.log("You can Enter  the club");
+// let age = 20;
+// let hasId = true;
+// if (age>= 20){
+//     if(hasId){
+//         console.log("You can Enter  the club");
         
-    }
-    else{
-        console.log("You need ID card");
+//     }
+//     else{
+//         console.log("You need ID card");
         
-    }
-}else{
-    console.log("you are too young");
+//     }
+// }else{
+//     console.log("you are too young");
+    
+// }
+
+// Switch Statement
+
+let color = "green";
+switch(color){
+    case "red":
+    console.log("Stop the car");
+    break;
+    case "yellow":
+    console.log("Get ready ");
+    break;
+    case "green":
+    console.log("you can go");
+    break
+    default:
+        console.log("Unknown Color");
+        
+    
+    
     
 }
