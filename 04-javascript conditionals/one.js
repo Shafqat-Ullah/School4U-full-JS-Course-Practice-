@@ -154,3 +154,20 @@
 //     default:
 //         console.log("Enter valid numbers ...")
 // }
+
+
+
+// Scenario: On an e-commerce website, show a message when a product is out of stock.
+
+// Question:
+// Write a program to check if the stock of a product is 0. If it is, display the message "Product is out of stock.".
+
+
+let product = 10;
+if(product===0){
+    console.log("Product is out of stock");
+    
+}else{
+    console.log("Product in Stock");
+    
+}
