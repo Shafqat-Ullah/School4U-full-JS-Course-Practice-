@@ -171,3 +171,13 @@ if(product===0){
     console.log("Product in Stock");
     
 }
+
+// "If it's raining, take an umbrella. Otherwise, enjoy the sunshine!"
+let wether = "raining" ;
+if (wether==="raining"){
+    console.log("Take Umbrella");
+    
+}else {
+    console.log("Sun Sunshine");
+    
+}
