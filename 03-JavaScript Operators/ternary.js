@@ -44,12 +44,27 @@
 // console.log("Largest Number :", result);
 
 
-let age = 20;
-let result = (age >18)?"you can drive" : "kids";
-console.log(result);
+// let age = 20;
+// let result = (age >18)?"you can drive" : "kids";
+// console.log(result);
 
 
-let userName = null;
-let passowerd = "123";
-let login = (userName && passowerd) ? "login Sucessfuly ": "try agin";
+// let userName = null;
+// let passowerd = "123";
+// let login = (userName && passowerd) ? "login Sucessfuly ": "try agin";
+// console.log(login);
+
+
+// If username AND password are correct → "Login Successfully"
+// ❌ Otherwise → "Try Again"
+// Using:
+
+
+let correctUsername  = "Shafqat Ullah";
+let correctPassowerd = "123";
+
+let userName = "Shafqat Ullah";
+let userPassowerd = "123";
+
+let login = (correctUsername == userName && correctPassowerd ===  userPassowerd) ? "login":"try agin";
 console.log(login);
