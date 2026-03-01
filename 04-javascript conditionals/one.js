@@ -272,6 +272,42 @@ if (wether==="raining"){
 
 
 // ternary Operator
-let age = 20;
-let result = (age>= 20)?"you can drive":"You are too young"
-console.log(result);
+// let age = 20;
+// let result = (age>= 20)?"you can drive":"You are too young"
+// console.log(result);
+
+
+// ✅ 2️⃣ Switch Statement in JavaScript
+let color = "red";
+switch  (color){
+    case "red":
+        console.log("Stop The Car");
+        break;
+        case "green":
+            console.log("You Can Go");
+            break;
+            case "Yellow":
+                console.log("Are You Ready");
+                
+}
+
+
+
+let day = 2;
+
+switch(day) {
+    case 1:
+        console.log("Monday");
+        break;
+
+    case 2:
+        console.log("Tuesday");
+        break;
+
+    case 3:
+        console.log("Wednesday");
+        break;
+
+    default:
+        console.log("Invalid Day");
+}
