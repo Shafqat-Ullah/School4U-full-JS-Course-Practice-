@@ -42,3 +42,14 @@
 // let a = 20 ; b = 30; c =50;
 // let result =(a>b && a>c) ? a : (b>c) ? b : c;
 // console.log("Largest Number :", result);
+
+
+let age = 20;
+let result = (age >18)?"you can drive" : "kids";
+console.log(result);
+
+
+let userName = null;
+let passowerd = "123";
+let login = (userName && passowerd) ? "login Sucessfuly ": "try agin";
+console.log(login);
