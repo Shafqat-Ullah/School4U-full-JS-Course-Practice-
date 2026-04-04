@@ -60,29 +60,51 @@
 
 
 // Anonymous Function
-setTimeout(function(){
-    console.log("hello this Anonymous function");
+// setTimeout(function(){
+//     console.log("hello this Anonymous function");
     
-},3000)
+// },3000)
 
 // ..............
-let alpa = ()=>{
-    console.log("hhhhhhh");
+// let alpa = ()=>{
+//     console.log("hhhhhhh");
     
-}
-setTimeout(alpa ,3000);
+// }
+// setTimeout(alpa ,3000);
 
 // (Immediately Invoked 
 // Function Expression)
 
-console.log("hello this me Shafqat ullah");
-(function(){
-    console.log("(Immediately Invoked Function Expression)");
+// console.log("hello this me Shafqat ullah");
+// (function(){
+//     console.log("(Immediately Invoked Function Expression)");
     
-})();
+// })();
 
-setTimeout(()=>{
+// setTimeout(()=>{
 // console.log("hhhh");
-alert("Please Login ")
+// alert("Please Login ")
 
-},3000)
+// },3000)
+
+
+
+
+
+
+// function myFunction(n){
+//     let sum = 0;
+//     for (let i = 0 ; i<=n ; i ++)
+//     {
+//         sum = sum +i;
+     
+        
+//     }
+//        console.log( "The Sum OF N :",sum);
+// }
+// myFunction(55)
+// myFunction(2)
+
+
+
+
