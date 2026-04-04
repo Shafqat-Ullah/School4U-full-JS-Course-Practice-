@@ -401,9 +401,166 @@
 // }
 
 
-let n = 5;
-let fact = 1;
-for (let i = 1 ; i<= n ; i++){
-    fact *= i
-}
-console.log("factorial = " ,fact);
+// let n = 5;
+// let fact = 1;
+// for (let i = 1 ; i<= n ; i++){
+//     fact *= i
+// }
+// console.log("factorial = " ,fact);
+
+
+
+
+//✅ 1. Sum of first 'n' numbers
+
+// 👉 Matlab: 1 + 2 + 3 + ... + n
+
+// Code:
+// let n = 5;
+// let sum = 0;
+
+// for (let i = 1; i <= n; i++) {
+//     sum = sum + i;
+// }
+
+// console.log("Sum =", sum);
+// 🔍 Explanation:
+// sum = 0 → starting value
+// loop 1 se n tak chalega
+// har step pe sum + i ho raha hai
+
+// 👉 Example:
+// 1+2+3+4+5 = 15
+
+// ✅ 2. Sum from 'm' to 'n'
+
+// 👉 Matlab: m se start, n tak add
+
+// Code:
+// let m = 3;
+// let n = 6;
+// let sum = 0;
+
+// for (let i = m; i <= n; i++) {
+//     sum = sum + i;
+// }
+
+// console.log("Sum =", sum);
+// 🔍 Explanation:
+// loop starts from m
+// ends at n
+// same logic as above
+
+// 👉 Example:
+// 3+4+5+6 = 18
+
+// ✅ 3. Print all odd numbers from 0 to 'n'
+
+// 👉 Odd numbers = 1, 3, 5, 7...
+
+// Code:
+// let n = 10;
+
+// for (let i = 1; i <= n; i++) {
+//     if (i % 2 !== 0) {
+//         console.log(i);
+//     }
+// }
+// 🔍 Explanation:
+// % = remainder
+// odd number → remainder 1 hota hai
+// i % 2 !== 0 → odd
+
+// 👉 Output:
+// 1 3 5 7 9
+
+// ✅ 4. Number Guessing Game (Number Knock)
+
+// 👉 User guess karta rahe jab tak correct na ho
+
+// Code:
+// let correctNumber = 7;
+// let guess;
+
+// while (guess !== correctNumber) {
+//     guess = Number(prompt("Enter your guess:"));
+
+//     if (guess === correctNumber) {
+//         alert("Correct Guess!");
+//     } else {
+//         alert("Try again!");
+//     }
+// }
+// 🔍 Explanation:
+// while loop → jab tak correct nahi hota chalega
+// user input → prompt()
+// compare → ===
+// ✅ 5. Simple Password Checker (Fixed Attempts)
+
+// 👉 3 attempts only
+
+// Code:
+// let correctPassword = "1234";
+// let attempts = 3;
+
+// while (attempts > 0) {
+//     let password = prompt("Enter password:");
+
+//     if (password === correctPassword) {
+//         alert("Access Granted");
+//         break;
+//     } else {
+//         attempts--;
+//         alert("Wrong password. Attempts left: " + attempts);
+//     }
+// }
+
+// if (attempts === 0) {
+//     alert("Account Locked");
+// }
+// 🔍 Explanation:
+// attempts = 3
+// har wrong pe attempts--
+// break → loop stop
+// ✅ 6. Factorial of 'n'
+
+// 👉 Example:
+// 5! = 5×4×3×2×1 = 120
+
+// Code:
+// let n = 5;
+// let fact = 1;
+
+// for (let i = 1; i <= n; i++) {
+//     fact = fact * i;
+// }
+
+// console.log("Factorial =", fact);
+// 🔍 Explanation:
+// multiplication hoti hai (*)
+// start from 1
+// ✅ 7. Pattern Printing
+
+// 👉 Output:
+
+// 1
+// 12
+// 123
+// 1234
+// 12345
+// Code:
+// let n = 5;
+
+// for (let i = 1; i <= n; i++) {
+//     let row = "";
+
+//     for (let j = 1; j <= i; j++) {
+//         row = row + j;
+//     }
+
+//     console.log(row);
+// }
+// 🔍 Explanation:
+// outer loop → rows
+// inner loop → numbers print
+// row string ban raha hai
