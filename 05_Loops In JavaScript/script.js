@@ -256,13 +256,154 @@
 //   console.log(a+a);
   
 // }
-let sum = 0;
-for(let i = 1; i<=10; i++){
-  sum = sum + i;
+
+// for (let i = 0; i<=10; i++){
+//   console.log(i)
+// }
+
+// let i = 1;
+// while(i <= 10){
+//   console.log(i);
+//   i++;
+// }
+
+
+// do while 
+// let i = 20;
+// do{
+//   console.log(i);
+//   i++;
+// }while(i <= 10)
+
+
+
+// let str = "shafqat ullah";
+// for (let ch of str){
+//     console.log(ch);
+    
+// }
+// for (let a = 30 ; a<= 40 ; a++){
+//     console.log("Shafqat Ullah");
+//     if(a>=50){
+//         console.log("ali khan");
+        
+//     }
+    
+// }
+
+
+
+
+// for (let i = 1 ; i<=30 ; i++){
+//     console.log(i , "Shafqat");
+    
+// }
+
+
+// While loop .......................................
+// A while loop checks the condition first, then runs the code.
+
+// let i = 1;
+// while(i<= 20){
+//     console.log(`Shafqat Ullah ${i++}` )
+//     // i++;
+// }
+
+// let str = "Shafqat Ullah";
+// for(let ch of str ){
+//     console.log(ch);
+  
+    
+// }
+
+// for (let i = 0  ;i<=100 ; i++ ){
+//     if (i%2===0){
+//         console.log(i);
+        
+//     }
+// }
+
+// let  str = "Alpa"
+// let vowelCount = 0;
+// let consonentCount = 0;
+// for (let ch of str ){
+//     if (ch === 'a' || ch === 'e'|| ch === 'i' || ch === 'o' || ch === 'u'){
+//         vowelCount ++;
+//     }
+//     else{
+//         consonentCount ++;
+//     }
+// }
+
+// let name = "Shafqat";
+
+// let vowels = "aeiou";
+// let found = "";
+
+// for (let i = 0; i < name.length; i++) {
+//     if (vowels.includes(name[i].toLowerCase())) {
+//         found += name[i];
+//     }
+// }
+
+// console.log("Vowels:", found);
+
+
+// let user = +prompt("Enter any value");
+// let sum = 0;
+// for (let i = 0 ; i<=user ; i++){
+    
+    
+//     sum += i;
+//     console.log(`The Value of Sum Is ${sum}`);
+//     console.log(sum , i);
+    
+// }
+// console.log();
+
+// 👉 User guess karta rahe jab tak correct na ho
+
+// let coumputerNumber = 50;
+// let guess = null;
+
+
+// while(guess !== coumputerNumber){
+//     guess = +prompt("Guess The Number ");
+// if (isNaN(guess)){
+// alert("invalid NUmber Please Try again")
+// }else if (guess > coumputerNumber ){
+//     alert("Guess Number Is Grater Please Try Again ")
+// }
+// else if (guess < coumputerNumber){
+//     alert("Guess Number is Small please try again")
+// }
+// else{
+//     alert ("Congratulation Your Guess Is Correct")
+// }
+// }
+
+
+// let correctPassword = 123;
+// let noOfAttempets = 0;
+// let UserPassword = null;
+// while (UserPassword !== correctPassword && noOfAttempets< 3){
+//     UserPassword = +prompt("Enter the Correct Password")
+//     noOfAttempets++;
+//     if (UserPassword === correctPassword){
+//         alert("Congratulation Your Passwords is Correct ")
+//     }
+//     else if (noOfAttempets >= 3){
+//         alert("Sorry Your Attempets Is Over")
+//     }
+//     else {
+//         alert("Your Passwords is inCorrect please try again")
+//     }
+// }
+
+
+let n = 5;
+let fact = 1;
+for (let i = 1 ; i<= n ; i++){
+    fact *= i
 }
-console.log("sum = ", sum)
-
-let x = "sam";
-x=
-
-
+console.log("factorial = " ,fact);
