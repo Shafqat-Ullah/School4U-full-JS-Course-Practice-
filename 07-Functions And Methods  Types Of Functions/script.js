@@ -132,8 +132,76 @@
 // Shafqat("Shfaqta")
 
 
-function code (name = "Shafqat"){
-    console.log(name);
+// function code (name = "Shafqat"){
+//     console.log(name);
     
-}
-code("khan")
+// }
+
+// code("khan")
+
+
+// ........................
+
+// let a = function(name){
+//     console.log("hello bro",name);
+    
+// }
+// a("khan")
+
+
+// let a = ()=>{
+//     console.log("hello Shafqat");
+    
+// }
+// a()
+
+// setTimeout(() => {
+//     console.log("Shafqat");
+    
+// }, 4000);
+
+// setTimeout(() => {
+//     console.log("hello this me Shafqat Ullah");
+    
+// }, 5000);
+
+// (function(){
+//     console.log("shafqat");
+    
+// })()
+
+// ..................Normal Function 
+// function shafqat (){
+//     console.log("shafqat");
+    
+// }
+// shafqat()
+
+
+// .......... function expression 
+// let a = function(){
+//     console.log("Shafqat ");
+    
+// }
+// a()
+
+// ................... arrow function 
+// let a =()=>{
+//     console.log("shafqat ");
+    
+// }
+// a()
+
+
+// ............. Anonymous function 
+// setTimeout(() => {
+//     console.log("Shafqat Ullah");
+    
+// }, 3333);
+
+
+// ...........IIFE 
+// (function (){
+//     console.log("Sahfqat");
+    
+// })()
