@@ -107,4 +107,33 @@
 
 
 
+// function Shafqat(n){
+//     console.log("hello this me Shafqat Ullah");
+    
+// }
+// Shafqat(5)
 
+
+
+
+// Shafqat(4)
+
+// function  khan(){
+//    return "abcbhabch"
+// }
+
+// let a = khan();
+// console.log(a);
+
+// function Shafqat(name){
+//     console.log("hello bro ",name);
+    
+// }
+// Shafqat("Shfaqta")
+
+
+function code (name = "Shafqat"){
+    console.log(name);
+    
+}
+code("khan")
