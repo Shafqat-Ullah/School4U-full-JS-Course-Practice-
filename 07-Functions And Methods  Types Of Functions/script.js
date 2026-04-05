@@ -205,3 +205,21 @@
 //     console.log("Sahfqat");
     
 // })()
+// setTimeout(() => {
+//     alert("Please login")
+// }, 5000);
+
+// let Dprice =(price , discount)=>{
+  
+//     let discountPrice = price - price *(discount/100)
+//     return discountPrice
+// }
+// let result = Dprice (100 , 30)
+// console.log(result);
+
+
+function genarateUserName (FullName){
+    console.log("@",FullName );
+    
+}
+genarateUserName("Sahfqat")
