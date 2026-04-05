@@ -214,9 +214,81 @@
 // console.log(nums)
 
 // slice 
-let newNums = [1,2,3,4,5];
-let result = newNums.slice(1);
-console.log(result)
+// let newNums = [1,2,3,4,5];
+// let result = newNums.slice(1);
+// console.log(result)
+
+
+// let num = [1,2,34,5,6,77]
+// let num2 = num.splice(2,3,20)
+// console.log(num);
+
+
+// let new = [1,2,3,45,6];
+
+
+// let arr = [1,2,34,5,6,7];
+// let ok = arr.slice(2,3);
+// console.log(arr);
+// console.log(ok);
+
+
+// let arr = [1,2,3,4,5,6];
+// let ok = arr.splice(1,3,10,20);
+// console.log(arr);
+
+
+// let str = "Hello i am shafqat";
+// console.log(str.split(" "))
+// console.log(str.charAt(0))
+
+// let intro = "my name is shafqat shafqat";
+// console.log(intro.replace("shafqat", "mehran"))
+ 
+
+// let str2 = new String ("Hello");
+// console.log(str2)
+
+// function generateUSerName(fullname){
+//     return "@" + fullname + "_" + fullname.length
+// }
+// console.log(generateUSerName("ShafqatUllah"))
+// console.log(generateUSerName("sam"))
+
+
+
+// Method In String
+// let a = "Shafqat Ullah";
+// console.log(a.toLocaleUpperCase());
+
+let a = "   shafqat ullah";
+let b = " how are you"
+// console.log(a.length); //tell how many characters are in a string
+// console.log(a.includes( "ull")); check the string is include are not
+// console.log(a.toUpperCase());
+// console.log(a.toLocaleLowerCase());
+// console.log(a.concat(b)); join the 2 string
+// console.log( a.trim());
+// console.log(a.trimEnd());
+// console.log(a.trimStart());
+// console.log(a.charAt("f"));
+// console.log(a.replace("shafqat","Ahmad"));
+// console.log(a.replaceAll("a","z"));
+// console.log(a.indexOf("f"));
+// console.log(a.slice( 5,11));
+// console.log(a.split(" "));
+// 
+ 
+
+
+
+
+
+
+
+
+
+
 
 
 
