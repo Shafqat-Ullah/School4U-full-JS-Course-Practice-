@@ -261,8 +261,8 @@
 // let a = "Shafqat Ullah";
 // console.log(a.toLocaleUpperCase());
 
-let a = "   shafqat ullah";
-let b = " how are you"
+// let a = "   shafqat ullah";
+// let b = " how are you"
 // console.log(a.length); //tell how many characters are in a string
 // console.log(a.includes( "ull")); check the string is include are not
 // console.log(a.toUpperCase());
@@ -279,6 +279,10 @@ let b = " how are you"
 // console.log(a.split(" "));
 // 
  
+let userName = prompt("Enter Your full Name ");
+let fullName = `@ ${userName} ${userName.length()}`
+console.log(fullName);
+
 
 
 
