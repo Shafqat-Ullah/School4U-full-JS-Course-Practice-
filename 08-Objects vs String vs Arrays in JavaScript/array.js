@@ -9,8 +9,8 @@
 
 // arr.shift(); shift remove karta ha array ke start se
 // console.log(arr);
-let arr = [4,5,6,7,61,71,8];
-console.log(arr);
+// let arr = [4,5,6,7,61,71,8];
+// console.log(arr);
 // let newarr = arr.slice(1, 4);
 // console.log(newarr); slice hami 1 new array data ha but ye point yad raki ke last number include nahi hoga
 
@@ -18,5 +18,57 @@ console.log(arr);
 // console.log(newarr);
 // console.log(arr);
 
+// let arr = ["apple","mango","banana"];
+// arr.reverse()
+// console.log(arr);
+// arr.sort()
+// console.log(arr);
+// let test = arr.find( function (item){
+//     // console.log(item);
+//    return item === "mango"
+
+    
+// })
+// console.log(test);
+
+
+// let numbers = [10, 20, 30, 40];
+
+// let result = numbers.find(num => num > 25);
+
+// console.log(result);
+
+// let users = [
+//   {name: "Ali", age: 20},
+//   {name: "Ahmed", age: 25},
+//   {name: "Sara", age: 30}
+// ];
+
+// let result = users.find(user => user.age > 22);
+
+// console.log(result);
+
+
+// let arr = ["mango",["apple"],"banana"];
+// console.log(arr.flat());  flat is use to convert nested array into one array
+// let names = ["Ali", "Zain", "Ahmed"];
+// names.sort();
+
+// console.log(names);
+
+// let arr = [10, 2, 5];
+
+// arr.sort(function(a, b) {
+//   return a - b;
+// });
+
+// console.log(arr);
+
+// 1) Map
+let numbers = [1, 2, 3];
+
+let result = numbers.map(num => num * 2);
+
+console.log(result); // [2, 4, 6]
 
 
