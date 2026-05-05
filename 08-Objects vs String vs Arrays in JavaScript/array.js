@@ -65,10 +65,12 @@
 // console.log(arr);
 
 // 1) Map
-let numbers = [1, 2, 3];
+// let numbers = [1, 2, 3];
 
-let result = numbers.map(num => num * 2);
+// let result = numbers.map(num => num * 2);
 
-console.log(result); // [2, 4, 6]
+// console.log(result); // [2, 4, 6]
+
+
 
 

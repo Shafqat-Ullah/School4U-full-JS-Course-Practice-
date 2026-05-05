@@ -3,6 +3,8 @@
 // let concat = `${a} ${b}`; // template literals 
 // console.log(concat);
 
+// const { use } = require("react");
+
 
 //   .................
 
@@ -279,19 +281,75 @@
 // console.log(a.split(" "));
 // 
  
-let userName = prompt("Enter Your full Name ");
-let fullName = `@ ${userName} ${userName.length()}`
-console.log(fullName);
+// let userName = prompt("Enter Your full Name ");
+// let fullName = `@ ${userName.trim() }${userName.length}`
+// console.log(fullName);
 
 
 
 
 
+// let str = prompt("Enter any string");
+// let ch = prompt("Enter any character");
+
+// let count=0;
+// for (let val of str)
+// if (val === ch) {
+// count++;
 
 
 
+// console.log(count)
+// }
 
 
+
+// let myName = "shafqat";
+// console.log(myName.length)
+
+// console.log(myName.includes("s"))
+// console.log(myName.indexOf("s"))
+// console.log(myName.charAt(0))
+// console.log(myName.replace("s", "a"))
+// console.log(myName.replaceAll("a", "b"))
+
+// console.log(myName.slice(1, 4))
+
+// console.log(myName.split(""))
+
+// console.log("My name is", myName)
+// console.log(`My name is ${myName}`)
+
+
+
+// function add (a,b){
+//     // return a+b;
+//     console.log(a+b);
+    
+
+// }add (20,30)
+// let x = add (10,20)
+// console.log(x);
+
+// let Name = "Shafqat Ullah"
+// // console.log(Name.toLocaleUpperCase());
+// // console.log(Name.includes("Ullahjj"));
+// console.log(Name.slice(0,5));
+
+// let Name = "Shafqat Ullah";
+// let LastName = "Salih";
+// console.log(Name.concat(LastName));
+// console.log(Name.indexOf("S"));
+// console.log(Name.charAt(5));
+// console.log(Name.replace("Ullah","Khan"));
+// console.log(Name.slice(1,5));
+
+// console.log(Name.split());
+
+
+// let Name = prompt(("Enter Your Name"))
+
+// console.log(`The user name is : ${Name}`);
 
 
 

@@ -94,3 +94,43 @@
 // }
 // let {name ,age,address}=obj;
 // console.log(name,age,address);
+
+
+// ................Question .........
+
+// let person = {
+//     name : "ali",
+//     age : 20,
+//     city : "kpk",
+    
+// }
+// person.email = "ali@gmail.com"
+
+
+// for(let key in person){
+//     console.log(`Value of ${key} is ${person[key]}`);
+    
+// }
+
+// ......question 2
+// let obj ={
+//     fullName : "Shafqat ",
+//     middleName : "Ullah",
+
+//     lastName : "Salih"
+// }
+// let convertofullname  = (obj)=>{
+
+// }
+// console.log(obj);
+
+
+let arr = [
+    {name :"a" ,role : "admain"},
+     {name :"b", role : "user"},
+      {name :"c", role : "admain"},
+]
+let filterditem = arr.filter((item) => {
+    console.log(item);
+    
+})
