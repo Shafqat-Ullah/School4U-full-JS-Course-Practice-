@@ -332,40 +332,60 @@
 //     console.log("first please subscribe")
 // }
 
-let totalBalance = 1000;
-let userChoice =Number( prompt(
-  "Enter Your choice : \n 1:check Balance \n 2: Deposit \n 3: Withdraw \n 4 :Exit",
-));
+// let totalBalance = 1000;
+// let userChoice =Number( prompt(
+//   "Enter Your choice : \n 1:check Balance \n 2: Deposit \n 3: Withdraw \n 4 :Exit",
+// ));
 
-if(userChoice === 1){
-    console.log("Your Current Balance is : ", totalBalance );
+// if(userChoice === 1){
+//     console.log("Your Current Balance is : ", totalBalance );
     
-}else if (userChoice === 2){
-    let depositAmout = Number (prompt("Enter Amount to deposit :"));
-    if (depositAmout > 0){
-        totalBalance =totalBalance + depositAmout;
-        console.log("Deposit Successfully");
+// }else if (userChoice === 2){
+//     let depositAmout = Number (prompt("Enter Amount to deposit :"));
+//     if (depositAmout > 0){
+//         totalBalance =totalBalance + depositAmout;
+//         console.log("Deposit Successfully");
         
-        console.log("Your current balance is ",totalBalance);
+//         console.log("Your current balance is ",totalBalance);
         
-    }else{
-        console.log("please enter a valid deposite amount ");
+//     }else{
+//         console.log("please enter a valid deposite amount ");
         
-    }
-}else if (userChoice == 3){
-    let WithdrawAmount = Number(prompt("Enter Amount to deposit :"))
-    if (WithdrawAmount>=0 && WithdrawAmount <= totalBalance){
-        totalBalance -=WithdrawAmount;
-        console.log("withdraw successfully");
+//     }
+// }else if (userChoice == 3){
+//     let WithdrawAmount = Number(prompt("Enter Amount to deposit :"))
+//     if (WithdrawAmount>=0 && WithdrawAmount <= totalBalance){
+//         totalBalance -=WithdrawAmount;
+//         console.log("withdraw successfully");
         
-        console.log("Your current balance is :", totalBalance);
+//         console.log("Your current balance is :", totalBalance);
         
-    }else{
-        console.log("please enter a valid withdraw amount ");
+//     }else{
+//         console.log("please enter a valid withdraw amount ");
         
-    }
+//     }
+// }
+// else{
+//     console.log("Thanks for comming");
+    
+// }
+
+
+// Conditionals In JavaScript:
+
+// Use Case:
+
+// Scenario: On an e-commerce website, show a message when a product is out of stock.
+
+// Question:
+// Write a program to check if the stock of a product is 0. If it is, display the message "Product is out of stock.".
+
+let prodcuts = 0;
+if(prodcuts===0){
+    console.log("product is out of stock");
+    
 }
 else{
-    console.log("Thanks for comming");
+    console.log('product is in stock');
     
 }
