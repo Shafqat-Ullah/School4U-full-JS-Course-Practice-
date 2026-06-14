@@ -462,24 +462,43 @@
 // }
 
 // ..........................Nested if Statements.....................
-let age = 20;
-let hasId = true;
-if (age>18){
-    if(hasId){
-        console.log("You can Enter To the club");
+// let age = 20;
+// let hasId = true;
+// if (age>18){
+//     if(hasId){
+//         console.log("You can Enter To the club");
         
-    }
-    else{
-        console.log("You need id card");
+//     }
+//     else{
+//         console.log("You need id card");
         
-    }
-}
-else{
-    console.log("You are under age ");
+//     }
+// }
+// else{
+//     console.log("You are under age ");
     
-}
+// }
 
 
 // switch Statement
+
+let color = "red";
+switch(color){
+    case "red":
+        console.log("Stop");
+        break;
+        case "yellow":
+            console.log("ready");
+            break;
+            case "Green":
+                console.log("GO");
+                break;
+                default:
+                    console.log("invalid color");
+                    
+                
+            
+        
+}
 
 // Ternary Operator [? :] (short form)
