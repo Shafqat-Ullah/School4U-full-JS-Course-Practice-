@@ -423,20 +423,41 @@
 // Nested if Statements
 
 // .................Student Marks Grade Finder .............................
-let marks = 70;
-if(marks>=80){
-    console.log("Grate A");
+// let marks = 70;
+// if(marks>=80){
+//     console.log("Grate A");
     
-}else if (marks>=70){
-    console.log("Grate B");
+// }else if (marks>=70){
+//     console.log("Grate B");
+    
+// }
+// else if (marks>= 60){
+//     console.log("Grate C");
+    
+// }
+// else{
+//     console.log("You need to more hardWork");
+    
+// }
+
+
+//  .....................Traffic light ........................
+
+let color = "Red";
+if (color==="Red"){
+    console.log("Stop The Car");
     
 }
-else if (marks>= 60){
-    console.log("Grate C");
+else if (color === "Yellow"){
+    console.log("Ready ");
+    
+}
+else if (color==="Green"){
+    console.log("You can go");
     
 }
 else{
-    console.log("You need to more hardWork");
+    console.log("Invalid color");
     
 }
 
