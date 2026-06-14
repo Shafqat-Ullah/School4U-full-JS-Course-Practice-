@@ -410,17 +410,36 @@
     
 // }
 // if ... else Statement
-let age = 20;
-if(age>20){
-    console.log("You can drive");
+// let age = 20;
+// if(age>20){
+//     console.log("You can drive");
     
-}else{
-    console.log("you are kids");
+// }else{
+//     console.log("you are kids");
     
-}
+// }
 
 // if ... else if ... else (Also called "Else-If Ladder")
 // Nested if Statements
+
+// .................Student Marks Grade Finder .............................
+let marks = 70;
+if(marks>=80){
+    console.log("Grate A");
+    
+}else if (marks>=70){
+    console.log("Grate B");
+    
+}
+else if (marks>= 60){
+    console.log("Grate C");
+    
+}
+else{
+    console.log("You need to more hardWork");
+    
+}
+
 
 // switch Statement
 
