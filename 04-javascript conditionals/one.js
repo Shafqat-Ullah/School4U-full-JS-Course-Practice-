@@ -380,12 +380,22 @@
 // Question:
 // Write a program to check if the stock of a product is 0. If it is, display the message "Product is out of stock.".
 
-let prodcuts = 0;
-if(prodcuts===0){
-    console.log("product is out of stock");
+// let prodcuts = 0;
+// if(prodcuts===0){
+//     console.log("product is out of stock");
     
-}
-else{
-    console.log('product is in stock');
+// }
+// else{
+//     console.log('product is in stock');
+    
+// }
+
+// write a program that check the weather is the weather is rani so display "take umbrella" other wise Enjoy the sun sunshine ?
+let weather = "Rainy";
+if (weather==="Rainy"){
+    console.log("Take umbrella");
+    
+}else{
+    console.log("Enjoy The sunshine");
     
 }
