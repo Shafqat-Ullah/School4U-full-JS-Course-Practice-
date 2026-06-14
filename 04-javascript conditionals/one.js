@@ -443,21 +443,39 @@
 
 //  .....................Traffic light ........................
 
-let color = "Red";
-if (color==="Red"){
-    console.log("Stop The Car");
+// let color = "Red";
+// if (color==="Red"){
+//     console.log("Stop The Car");
     
-}
-else if (color === "Yellow"){
-    console.log("Ready ");
+// }
+// else if (color === "Yellow"){
+//     console.log("Ready ");
     
-}
-else if (color==="Green"){
-    console.log("You can go");
+// }
+// else if (color==="Green"){
+//     console.log("You can go");
     
+// }
+// else{
+//     console.log("Invalid color");
+    
+// }
+
+// ..........................Nested if Statements.....................
+let age = 20;
+let hasId = true;
+if (age>18){
+    if(hasId){
+        console.log("You can Enter To the club");
+        
+    }
+    else{
+        console.log("You need id card");
+        
+    }
 }
 else{
-    console.log("Invalid color");
+    console.log("You are under age ");
     
 }
 
