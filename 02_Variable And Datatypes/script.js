@@ -135,6 +135,8 @@ console.log(fullName);
 // Q14: What is NaN in JavaScript, and how do you check if a value is NaN?
 // Q15: How do you check the type of a variable in JavaScript?
 
+let user_name ;
+console.log(user_name);
 
 
 
