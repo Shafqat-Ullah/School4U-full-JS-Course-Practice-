@@ -155,32 +155,25 @@
 //         console.log("Enter valid numbers ...")
 // }
 
-
-
 // Scenario: On an e-commerce website, show a message when a product is out of stock.
 
 // Question:
 // Write a program to check if the stock of a product is 0. If it is, display the message "Product is out of stock.".
 
-
-let product = 10;
-if(product===0){
-    console.log("Product is out of stock");
-    
-}else{
-    console.log("Product in Stock");
-    
-}
+// let product = 10;
+// if (product === 0) {
+//   console.log("Product is out of stock");
+// } else {
+//   console.log("Product in Stock");
+// }
 
 // "If it's raining, take an umbrella. Otherwise, enjoy the sunshine!"
-let wether = "raining" ;
-if (wether==="raining"){
-    console.log("Take Umbrella");
-    
-}else {
-    console.log("Sun Sunshine");
-    
-}
+// let wether = "raining";
+// if (wether === "raining") {
+//   console.log("Take Umbrella");
+// } else {
+//   console.log("Sun Sunshine");
+// }
 
 // Different Types of Conditional Statements
 
@@ -191,45 +184,43 @@ if (wether==="raining"){
 // 5. switch Statement
 // 6. Ternary Operator [? :] (short form)
 
-// 1 if statement 
+// 1 if statement
 // let temp = 40;
 // if(temp>30){
 //     console.log("it,s hot outside ");
-    
+
 // }
 
 // // if...else Statement
 // let age = 20;
 // if (age >= 18){
 //     console.log("You can Drive");
-    
+
 // }else{
 //     console.log("you can not drive!");
-    
-// }
 
+// }
 
 // // if...else if...else (Also called "Else - If Ladder")Nested if Statements
 
 // let marks = 90;
 // if (marks>= 90){
 //     console.log("Grade : A");
-    
+
 // }else if (marks>= 80){
 //     console.log("Grade : B");
-    
+
 // }else if (marks>=70){
 //     console.log("Grade : C");
-    
+
 // }
 // else if (marks>=60){
 //     console.log("Grade : D");
-    
+
 // }else{
 //     console.log("You Need more work");
-    
-// }
 
+// }
 
 // Nested if Statements
 // let age = 20;
@@ -237,15 +228,15 @@ if (wether==="raining"){
 // if (age>= 20){
 //     if(hasId){
 //         console.log("You can Enter  the club");
-        
+
 //     }
 //     else{
 //         console.log("You need ID card");
-        
+
 //     }
 // }else{
 //     console.log("you are too young");
-    
+
 // }
 
 // Switch Statement
@@ -263,51 +254,118 @@ if (wether==="raining"){
 //     break
 //     default:
 //         console.log("Unknown Color");
-        
-    
-    
-    
+
 // }
-
-
 
 // ternary Operator
 // let age = 20;
 // let result = (age>= 20)?"you can drive":"You are too young"
 // console.log(result);
 
-
 // ✅ 2️⃣ Switch Statement in JavaScript
-let color = "red";
-switch  (color){
-    case "red":
-        console.log("Stop The Car");
-        break;
-        case "green":
-            console.log("You Can Go");
-            break;
-            case "Yellow":
-                console.log("Are You Ready");
-                
+// let color = "red";
+// switch (color) {
+//   case "red":
+//     console.log("Stop The Car");
+//     break;
+//   case "green":
+//     console.log("You Can Go");
+//     break;
+//   case "Yellow":
+//     console.log("Are You Ready");
+// }
+
+// let day = 2;
+
+// switch(day) {
+//     case 1:
+//         console.log("Monday");
+//         break;
+
+//     case 2:
+//         console.log("Tuesday");
+//         break;
+
+//     case 3:
+//         console.log("Wednesday");
+//         break;
+
+//     default:
+//         console.log("Invalid Day");
+// }
+
+// Question:
+// Write a program where:
+
+// If the cart value is less than $50, no discount is applied.
+// If the cart value is between $50 and $100, apply a 10% discount.
+// If the cart value is more than $100, apply a 20% discount.
+// Display the final cart total after the discount.
+
+// let cartvalue = 2500;
+// let discount = 0;
+// if (cartvalue < 50) {
+//   discount = 0;
+// }
+//   else if (cartvalue >= 50 && cartvalue <= 100){
+//     discount = (cartvalue * 10) / 100;
+
+//   }
+//   else{
+//     discount =  (cartvalue * 20) / 100;
+//   }
+
+// let finalPrice = cartvalue -  discount;
+
+// console.log(`Cart value is ${cartvalue}`)
+// console.log(`discount  ${discount}%`);
+// console.log(finalPrice)
+
+// let hastSubscription = true;
+// let subscriptionType = "premium";
+
+// if (hastSubscription && subscriptionType === "premium"){
+//     console.log("Access to all content")
+// }else if (hastSubscription && subscriptionType === "Standard"){
+//     console.log("Acesss to limited content")
+// }else{
+//     console.log("first please subscribe")
+// }
+
+let totalBalance = 1000;
+let userChoice =Number( prompt(
+  "Enter Your choice : \n 1:check Balance \n 2: Deposit \n 3: Withdraw \n 4 :Exit",
+));
+
+if(userChoice === 1){
+    console.log("Your Current Balance is : ", totalBalance );
+    
+}else if (userChoice === 2){
+    let depositAmout = Number (prompt("Enter Amount to deposit :"));
+    if (depositAmout > 0){
+        totalBalance =totalBalance + depositAmout;
+        console.log("Deposit Successfully");
+        
+        console.log("Your current balance is ",totalBalance);
+        
+    }else{
+        console.log("please enter a valid deposite amount ");
+        
+    }
+}else if (userChoice == 3){
+    let WithdrawAmount = Number(prompt("Enter Amount to deposit :"))
+    if (WithdrawAmount>=0 && WithdrawAmount <= totalBalance){
+        totalBalance -=WithdrawAmount;
+        console.log("withdraw successfully");
+        
+        console.log("Your current balance is :", totalBalance);
+        
+    }else{
+        console.log("please enter a valid withdraw amount ");
+        
+    }
 }
-
-
-
-let day = 2;
-
-switch(day) {
-    case 1:
-        console.log("Monday");
-        break;
-
-    case 2:
-        console.log("Tuesday");
-        break;
-
-    case 3:
-        console.log("Wednesday");
-        break;
-
-    default:
-        console.log("Invalid Day");
+else{
+    console.log("Thanks for comming");
+    
 }
