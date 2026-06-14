@@ -391,11 +391,37 @@
 // }
 
 // write a program that check the weather is the weather is rani so display "take umbrella" other wise Enjoy the sun sunshine ?
-let weather = "Rainy";
-if (weather==="Rainy"){
-    console.log("Take umbrella");
+// let weather = "Rainy";
+// if (weather==="Rainy"){
+//     console.log("Take umbrella");
+    
+// }else{
+//     console.log("Enjoy The sunshine");
+    
+// }
+
+// Different Types of Conditional Statements
+
+
+
+// if Statement
+// if(age>20){
+//     console.log("you can drive");
+    
+// }
+// if ... else Statement
+let age = 20;
+if(age>20){
+    console.log("You can drive");
     
 }else{
-    console.log("Enjoy The sunshine");
+    console.log("you are kids");
     
 }
+
+// if ... else if ... else (Also called "Else-If Ladder")
+// Nested if Statements
+
+// switch Statement
+
+// Ternary Operator [? :] (short form)
