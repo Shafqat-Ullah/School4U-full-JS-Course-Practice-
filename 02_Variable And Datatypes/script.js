@@ -136,12 +136,31 @@ console.log(fullName);
 // Q15: How do you check the type of a variable in JavaScript?
 
 let user_name ;
-console.log(user_name);
+console.log(user_name ,typeof user_name);
 
 
+let nan = 20;
+let nan_2 = "khan";
+console.log(nan - nan_2);
 
 
+let khan = null ;
+console.log(khan , typeof khan);
 
+//Q10 
+let num1 = 10;
+let user_name1 = "khan";
+console.log(num + user_name1);
+
+//What is Type Coercion?
+
+// Type coercion means JavaScript automatically converts one data type into another when performing operations.
   
  
+let result1 = "5" + 5;
+console.log(result1);
 
+
+
+let convert_num = "123";
+console.log(+convert_num ,typeof +convert_num);
