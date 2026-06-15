@@ -503,6 +503,19 @@
 
 // Ternary Operator [? :] (short form)
 
-let age = 20;
-let result=(age> 18)?"you can drive":"you are kids";
-console.log(result);
+// let age = 20;
+// let result=(age> 18)?"you can drive":"you are kids";
+// console.log(result);
+
+
+// Challenge 1:
+
+// Scenario: A website gives discounts based on the total shopping cart amount.
+
+// Question:
+// Write a program where:
+
+// If the cart value is less than $50, no discount is applied.
+// If the cart value is between $50 and $100, apply a 10% discount.
+// If the cart value is more than $100, apply a 20% discount.
+// Display the final cart total after the discount.
