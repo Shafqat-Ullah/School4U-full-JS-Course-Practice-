@@ -482,23 +482,27 @@
 
 // switch Statement
 
-let color = "red";
-switch(color){
-    case "red":
-        console.log("Stop");
-        break;
-        case "yellow":
-            console.log("ready");
-            break;
-            case "Green":
-                console.log("GO");
-                break;
-                default:
-                    console.log("invalid color");
+// let color = "red";
+// switch(color){
+//     case "red":
+//         console.log("Stop");
+//         break;
+//         case "yellow":
+//             console.log("ready");
+//             break;
+//             case "Green":
+//                 console.log("GO");
+//                 break;
+//                 default:
+//                     console.log("invalid color");
                     
                 
             
         
-}
+// }
 
 // Ternary Operator [? :] (short form)
+
+let age = 20;
+let result=(age> 18)?"you can drive":"you are kids";
+console.log(result);
