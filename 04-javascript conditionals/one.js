@@ -519,3 +519,22 @@
 // If the cart value is between $50 and $100, apply a 10% discount.
 // If the cart value is more than $100, apply a 20% discount.
 // Display the final cart total after the discount.
+
+// 
+
+let cartValue = 120; // Example: Total shopping cart amount
+let finalCartValue;
+
+if (cartValue < 50) {
+finalCartValue = cartValue;
+console.log("No discount applied.");
+} else if (cartValue >= 50 && cartValue <= 100) {
+finalCartValue = cartValue - (cartValue * 0.1); // Apply 10% discount
+console.log("A 10% discount has been applied.");
+} else {
+finalCartValue = cartValue - (cartValue * 0.2); // Apply 20% discount
+console.log("A 20% discount has been applied.");
+
+}
+
+console.log(`The final cart total is ${finalCartValue.toFixed(2)}.)
