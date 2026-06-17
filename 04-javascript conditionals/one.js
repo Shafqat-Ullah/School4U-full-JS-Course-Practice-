@@ -522,19 +522,45 @@
 
 // 
 
-let cartValue = 120; // Example: Total shopping cart amount
-let finalCartValue;
+// let cartValue = 120; // Example: Total shopping cart amount
+// let finalCartValue;
 
-if (cartValue < 50) {
-finalCartValue = cartValue;
-console.log("No discount applied.");
-} else if (cartValue >= 50 && cartValue <= 100) {
-finalCartValue = cartValue - (cartValue * 0.1); // Apply 10% discount
-console.log("A 10% discount has been applied.");
-} else {
-finalCartValue = cartValue - (cartValue * 0.2); // Apply 20% discount
-console.log("A 20% discount has been applied.");
+// if (cartValue < 50) {
+// finalCartValue = cartValue;
+// console.log("No discount applied.");
+// } else if (cartValue >= 50 && cartValue <= 100) {
+// finalCartValue = cartValue - (cartValue * 0.1); // Apply 10% discount
+// console.log("A 10% discount has been applied.");
+// } else {
+// finalCartValue = cartValue - (cartValue * 0.2); // Apply 20% discount
+// console.log("A 20% discount has been applied.");
 
+// }
+
+// console.log(`The final cart total is ${finalCartValue.toFixed(2)}.)
+
+
+
+// Scenario: On a video-streaming platform, verify user access to premium content.
+
+// Question:
+// Write a program to check if a user has a valid subscription. If the user has a subscription, further check if the subscription is "premium" or "standard".
+
+// If "premium", display "Access to all content".
+// If "standard", display "Access to limited content".
+// If the user doesn't have a subscription, display "Please subscribe to access content."
+// 
+
+let hasSubscription =false;
+let SubscriptionType = "premium"
+if (hasSubscription === true && SubscriptionType === "premium"){
+    console.log("Access to all content");
+    
+}else if (hasSubscription === true && SubscriptionType=== "Stander"){
+    console.log("You can watch limited contend");
+    
 }
-
-console.log(`The final cart total is ${finalCartValue.toFixed(2)}.)
+else{
+    console.log("please subscribe to access");
+    
+}
