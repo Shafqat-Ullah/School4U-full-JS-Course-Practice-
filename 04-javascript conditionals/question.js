@@ -1,17 +1,23 @@
 // 
-let color =  `light`;
-let theme = prompt("Enter your team color (light ,dark , green ,etc");
-if(theme === `light`){
-    // console.log();
-    color= 'white'
+// 
+
+let theme = "light";
+let color = prompt("Enter the color name that you want to select them for your side ,(white,black,green)");
+if (theme===`light`){
+    color = 'white'
+    console.log(color);
     
-}else if (theme === 'dark'){
+}
+else if(theme === 'dark' ){
     color = 'black'
-}
-else if (theme === 'green'){
-    color ='green'
-}else{
-    console.log('invalid color');
+    console.log(color);
     
 }
-console.log(`your selected theam is ${theme} and the color is ${color}`);
+else if (theme === 'green' ){
+    color='green';
+    console.log(color);
+    
+}else{
+    console.log("invalid Color try Again")
+    
+}
