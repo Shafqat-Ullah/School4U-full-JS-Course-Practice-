@@ -22,6 +22,6 @@
     
 // }
 
-let num1 = 12;
-let num2 = 50;
+let num1 = +prompt("Enter The num1 ");
+let num2 = +prompt("enter the num2 ");
 console.log(`The * of num1 and num2 ${num1*num2}\ the + of num1 and num2 ${num1 +num2} \ the - of num1 and num2 is ${num1-num2}\the dev / of num1 and num2 is ${num1/num2}`);
