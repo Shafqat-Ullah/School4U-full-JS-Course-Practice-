@@ -88,18 +88,46 @@
             
         
 // }
-let num = 35;
-if(num % 3 === 0 && num %5 ===0){
-    console.log("fizzbuzz");
+// let num = 35;
+// if(num % 3 === 0 && num %5 ===0){
+//     console.log("fizzbuzz");
     
-}else if (num % 3 ===0 ){
-    console.log("pizz");
+// }else if (num % 3 ===0 ){
+//     console.log("pizz");
     
-}else if (num % 5 ===0){
-    console.log("buzz");
+// }else if (num % 5 ===0){
+//     console.log("buzz");
     
-}
-else{
-    console.log("neither divisible by 3 nor by 5");
+// }
+// else{
+//     console.log("neither divisible by 3 nor by 5");
     
+// }
+
+
+
+// Q.5- Create a simple calculator. Take two numbers and an operator (+, -, *, /) and calculate the result using switch.
+let num1 = 20;
+let num2 = 40;
+let operator = "*"
+switch(operator){
+    case "+":
+        console.log("The sum of num1 and num2 :",num1 +num2);
+        break;
+        case "*":
+            console.log("The * of num1 and num2 :",num1 *num2);
+            break;
+            case "/":
+                console.log("The / of num1 and num2 :",num1/num2);
+                break;
+                case ("-"):
+                    console.log( "The - of num1 and num2 :",num1 - num2);
+                    break;
+                    default:
+                        console.log("invalid operator");
+                        
+                    
+                
+            
+        
 }
