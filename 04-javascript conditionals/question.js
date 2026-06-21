@@ -53,16 +53,38 @@
 // }
 
 // - Find the smallest of three numbers. Numbers are given by the user
-let num1 = +prompt("Enter the value of num1 to find the smallest number")
-let num2 = +prompt("Enter the value of num2 to find the smallest number")
-let num3 = +prompt("Enter the value of num3 to find the smallest number")
-if(num1<num2&&num1<num3){
-    console.log('the smallest number is num1');
+// let num1 = +prompt("Enter the value of num1 to find the smallest number")
+// let num2 = +prompt("Enter the value of num2 to find the smallest number")
+// let num3 = +prompt("Enter the value of num3 to find the smallest number")
+// if(num1<num2&&num1<num3){
+//     console.log('the smallest number is num1');
     
-}else if (num2<num1 &&num2<num3){
-    console.log('The smallest number is num2');
+// }else if (num2<num1 &&num2<num3){
+//     console.log('The smallest number is num2');
     
-}else{
-    console.log('smallest number is num3');
+// }else{
+//     console.log('smallest number is num3');
     
+// }
+
+
+// Write a program to manage Role-Based Access Control
+// Given a user role ("admin", "editor", "viewer")
+let userRoll ="Admain";
+switch(userRoll){
+    case "Admain":
+        console.log("full access");
+        break;
+        case "editor":
+            console.log("editor access");
+            break;
+            case "viewer":
+                console.log("read only");
+                break;
+                default:
+                console.log("invalid roll");
+                
+                
+            
+        
 }
