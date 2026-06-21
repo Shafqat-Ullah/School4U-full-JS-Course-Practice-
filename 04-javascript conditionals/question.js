@@ -29,8 +29,8 @@
 
 // - Find the smallest of three numbers. Numbers are given by the user
 
-let theme = "light";
-let color = prompt("Enter the name of the color for your theme (White,black , green)")
+let color = "light";
+let theme = prompt("Enter the name of the color for your theme (White,black , green)")
 if (theme === "light"){
     color =`white`
 }else if (theme=== 'dark'){
@@ -51,3 +51,5 @@ if (theme!=='light' &&theme!=='dark'&&theme!=="green"){
         console.log(`your select them is ${theme} and color is :${color}`);
     
 }
+
+
