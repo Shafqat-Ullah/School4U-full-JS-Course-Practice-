@@ -70,21 +70,36 @@
 
 // Write a program to manage Role-Based Access Control
 // Given a user role ("admin", "editor", "viewer")
-let userRoll ="Admain";
-switch(userRoll){
-    case "Admain":
-        console.log("full access");
-        break;
-        case "editor":
-            console.log("editor access");
-            break;
-            case "viewer":
-                console.log("read only");
-                break;
-                default:
-                console.log("invalid roll");
+// let userRoll ="Admain";
+// switch(userRoll){
+//     case "Admain":
+//         console.log("full access");
+//         break;
+//         case "editor":
+//             console.log("editor access");
+//             break;
+//             case "viewer":
+//                 console.log("read only");
+//                 break;
+//                 default:
+//                 console.log("invalid roll");
                 
                 
             
         
+// }
+let num = 35;
+if(num % 3 === 0 && num %5 ===0){
+    console.log("fizzbuzz");
+    
+}else if (num % 3 ===0 ){
+    console.log("pizz");
+    
+}else if (num % 5 ===0){
+    console.log("buzz");
+    
+}
+else{
+    console.log("neither divisible by 3 nor by 5");
+    
 }
