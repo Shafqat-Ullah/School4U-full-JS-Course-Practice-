@@ -27,29 +27,42 @@
 // console.log(`The * of num1 and num2 ${num1*num2}\ the + of num1 and num2 ${num1 +num2} \ the - of num1 and num2 is ${num1-num2}\the dev / of num1 and num2 is ${num1/num2}`);
 
 
+
+
+// let color = "light";
+// let theme = prompt("Enter the name of the color for your theme (light ,dark , green)")
+// if (theme === "light"){
+//     color =`white`
+// }else if (theme=== 'dark'){
+//     color = "black"
+// }else if (theme === 'green'){
+//     color = 'green'
+// }else{
+
+//     console.log('invalid color');
+    
+// }
+// if (theme!=='light' &&theme!=='dark'&&theme!=="green"){
+//     console.log('invalid color selection');
+    
+// }
+//    else 
+// {
+//         console.log(`your select them is ${theme} and color is :${color}`);
+    
+// }
+
 // - Find the smallest of three numbers. Numbers are given by the user
-
-let color = "light";
-let theme = prompt("Enter the name of the color for your theme (White,black , green)")
-if (theme === "light"){
-    color =`white`
-}else if (theme=== 'dark'){
-    color = "black"
-}else if (theme === 'green'){
-    color = 'green'
+let num1 = +prompt("Enter the value of num1 to find the smallest number")
+let num2 = +prompt("Enter the value of num2 to find the smallest number")
+let num3 = +prompt("Enter the value of num3 to find the smallest number")
+if(num1<num2&&num1<num3){
+    console.log('the smallest number is num1');
+    
+}else if (num2<num1 &&num2<num3){
+    console.log('The smallest number is num2');
+    
 }else{
-
-    console.log('invalid color');
+    console.log('smallest number is num3');
     
 }
-if (theme!=='light' &&theme!=='dark'&&theme!=="green"){
-    console.log('invalid color selection');
-    
-}
-   else 
-{
-        console.log(`your select them is ${theme} and color is :${color}`);
-    
-}
-
-
