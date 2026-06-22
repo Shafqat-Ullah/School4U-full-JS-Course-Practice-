@@ -564,3 +564,15 @@
 // outer loop → rows
 // inner loop → numbers print
 // row string ban raha hai
+
+// let i =1;
+
+// for(let i=1; <=5; ++i){
+//     console.log("Shafqat Ullah");
+    
+// }
+
+for (let i =0;i<10;i++){
+    console.log("Shafqat Ullah");
+    
+}
