@@ -588,8 +588,14 @@
 
 
 // User password
-let password = " ";
-while(password !== "Admin"){
-    password = prompt("Enter Your Password")
-}
+// let password = " ";
+// while(password !== "Admin"){
+//     password = prompt("Enter Your Password")
+// }
 // do while loop
+
+
+for(let i =1 ; i<5; i++){
+    console.log("Shafqat Ullah");
+    
+}
