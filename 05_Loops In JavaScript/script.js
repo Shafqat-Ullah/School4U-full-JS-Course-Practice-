@@ -625,9 +625,37 @@
 // }
 
 // while loop 
-let i = 3;
-while(i<7){
-    console.log(i);
-    i++
+// let i = 3;
+// while(i<7){
+//     console.log(i);
+//     i++
     
+// }
+
+// let i = 1;
+// do{
+//     console.log(i);
+//     i++;
+    
+// }while(i<5)
+
+
+// for off loop  
+    // let str ="Shafqat Ullah";
+    // for(let val of str)     {
+    //     console.log(val);
+        
+    // }
+
+
+
+//     Challenge 1:
+
+// Print all even numbers from 0 to 10
+
+for(let i = 0; i<=100; i++){
+    if(i % 2 === 0 ){
+        console.log(i);
+        
+    }
 }
