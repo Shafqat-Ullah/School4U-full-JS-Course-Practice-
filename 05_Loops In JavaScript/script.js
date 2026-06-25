@@ -653,9 +653,43 @@
 
 // Print all even numbers from 0 to 10
 
-for(let i = 0; i<=100; i++){
-    if(i % 2 === 0 ){
-        console.log(i);
+// for(let i = 0; i<=100; i++){
+//     if(i % 2 === 0 ){
+//         console.log(i);
         
+//     }
+// }
+
+
+
+// for (let i = 0; i<100; i++){
+//     if(i % 2 === 0)
+//         {
+//         console.log(i);
+        
+//     }
+// }
+
+
+// question No 2
+// Challenge 2:
+
+// calculate how many vowels and consonents are in a given string using for of loop
+
+let Data = "shafqat ullah";
+let vowelCount = 0;
+let consonentCount = 0;
+
+for(let ch of Data){
+    if(ch ==="a"||ch==="e"||ch==="i"||ch==="o"||ch ==="u"){
+    vowelCount++
+    }
+    else {
+        consonentCount++
     }
 }
+console.log("The Total Vowel is :",vowelCount);
+console.log(`The total consonent is: ${consonentCount}`);
+
+
+
