@@ -73,11 +73,21 @@
 
 // question 6
 // find the factorial of the number 
-let num = 10;
-let fact = 1;
-for( let i =1 ; i<= num; i++){
-    fact = fact*i;
-    // console.log(fact);
+// let num = 10;
+// let fact = 1;
+// for( let i =1 ; i<= num; i++){
+//     fact = fact*i;
+//     // console.log(fact);
+    
+// }
+// console.log(fact);
+
+let n = 5;
+for (let i = 1; i<=5; i++){
+    let str = " ";
+    for (let j=1; j<=i ; j++){
+        str = str +j
+    }
+    console.log(str);
     
 }
-console.log(fact);
