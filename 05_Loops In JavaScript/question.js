@@ -70,3 +70,14 @@
 //         alert("You password is incorrect plz try again")
 //     }
 // }
+
+// question 6
+// find the factorial of the number 
+let num = 10;
+let fact = 1;
+for( let i =1 ; i<= num; i++){
+    fact = fact*i;
+    // console.log(fact);
+    
+}
+console.log(fact);
