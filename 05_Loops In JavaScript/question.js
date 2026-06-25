@@ -5,6 +5,8 @@
 // }
 // console.log("the sum of num is ",sum);
 
+// const { Component } = require("react");
+
 
 
 // question no 2
@@ -18,10 +20,53 @@
 // console.log(sum);
 
 
-let n = 50;
-for(let i = 1; i<= n; i++){
-    if(i % 2 !== 0){
-        console.log(i);
+// let n = 50;
+// for(let i = 1; i<= n; i++){
+//     if(i % 2 !== 0){
+//         console.log(i);
         
-    }
-}
+//     }
+// }
+
+
+// Create a “Number Knock” game. (ask the user to keep guessing the number 
+// until the user enters correct guess) .
+
+// let coumputerNumber = 8;
+// let guess = null;
+// while(guess !== coumputerNumber){
+//     let guess = +(prompt("Gusse a number"));
+// if (isNaN(guess)){
+//     alert("Please Enter valid number")
+    
+// }else if (guess < coumputerNumber){
+//     alert("Your guess number is too low plz try again");
+    
+// }else if (guess > coumputerNumber){
+//    alert("Your guess num is to high plz try again");
+    
+// }else{
+//  alert("Congratulation your guess is correct");
+    
+// }
+// }
+
+
+
+// let password = "Shafqat Ullah";
+// let noOfattempts = 0;
+// let UserPassword = null;
+// while(password !== UserPassword && noOfattempts <=3){
+//     UserPassword = prompt("Enter your password ");
+//     noOfattempts++;
+//     if(UserPassword== password){
+//         alert("Congrualation You password is correct")
+//     }
+//     else if (noOfattempts > 3){
+//         alert("Your Attempts is over plz try again letter");
+        
+//     }
+//     else{
+//         alert("You password is incorrect plz try again")
+//     }
+// }
