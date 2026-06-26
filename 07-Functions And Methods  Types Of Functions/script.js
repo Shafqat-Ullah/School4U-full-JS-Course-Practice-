@@ -218,8 +218,23 @@
 // console.log(result);
 
 
-function genarateUserName (FullName){
-    console.log("@",FullName );
+// function genarateUserName (FullName){
+//     console.log("@",FullName );
     
-}
-genarateUserName("Sahfqat")
+// }
+// genarateUserName("Sahfqat")
+
+
+// ...............................function............
+function khan(){
+    for (let i = 0; i<6; i++)
+        console.log('hello');
+        console.log('how are you');
+        
+};
+khan()
+
+let sum = 234e23;
+console.log(sum);
+
+khan()
