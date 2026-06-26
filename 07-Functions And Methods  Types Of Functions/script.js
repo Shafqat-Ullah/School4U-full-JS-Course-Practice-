@@ -226,15 +226,125 @@
 
 
 // ...............................function............
-function khan(){
-    for (let i = 0; i<6; i++)
-        console.log('hello');
-        console.log('how are you');
+// function khan(){
+//     for (let i = 0; i<6; i++)
+//         console.log('hello');
+//         console.log('how are you');
         
-};
-khan()
+// };
+// khan()
 
-let sum = 234e23;
-console.log(sum);
+// let sum = 234e23;
+// console.log(sum);
 
-khan()
+// khan()
+
+
+
+
+
+// function greet(name){
+// return "hello bro" + name;
+// }
+// let a = greet("Lambda");
+// console.log(a);
+
+// function greet(name){
+//     console.log(`hello bro ${name}`);
+    
+// }
+// greet(" Shafqat Ullah")
+// // let a = greet("Shafqat Ullah")
+// // console.log(a);
+
+
+// function sum(x,y){
+//     console.log(x+y);
+    
+// }sum(12,13)
+// .......................................types of function..............................
+// 1 function declaration 
+
+// function a(){
+//     console.log("hello this me Shafqat Ullah");
+    
+// }a()
+
+
+// 2 function Expression (store in variable)
+// let a = function(){
+//     console.log("hi bro");
+    
+// }
+// a()
+
+// 3 .................Arrow function ................... also store in variable
+// let fun = ()=>{
+//     console.log("hello bro");
+    
+// }
+// fun()
+
+
+// 4     Anonymous Function   ....... A function without name often used in expression 
+
+//  setTimeout(function(){
+//     console.log("hello");
+    
+// },1000);
+
+//  5 IIFE FUNCTION .......................
+// (function(){
+//     console.log("hello coder");
+    
+// })()
+
+
+
+
+
+
+// practice time   
+// normol function 
+// function greet(){
+//     console.log("hello coder");
+    
+// }
+// greet()
+
+// function expression 
+// let a = function(){
+//     console.log("hello bro how are u");
+    
+// } 
+// a()
+
+// Arrow function
+// let fun = ()=>{
+//     console.log("hello this is arrow function");
+    
+// }
+// fun()
+
+// Anonymous function   ........those function which have no name
+ 
+// let a = ()=>{
+//     console.log("Hello this is arrow function using settime out ");
+    
+// }
+// setTimeout(a,3000)
+//  setTimeout(() => {
+//     console.log("hello");
+    
+//  }, 1000); 
+
+// setTimeout(()=>{
+//     console.log("hello this arrow function");
+    
+// },1000)
+
+// iife Function 
+(function(){
+    console.log("hello");
+    
+})();
