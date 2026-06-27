@@ -71,6 +71,39 @@
 
 // console.log(result); // [2, 4, 6]
 
+// let arr1 = [1,2,3,4,"hello this"]
+// console.log(arr1);
+
+// arr1[1]=22;
+// console.log(arr1);
+
+
+
+// .............array...........
+
+// let arr1 = [1,2,3,4,5,6,7,8,9]
+// console.log(arr1);
+// let arr2 = ["Shafqat",1,2,3,"Ullah"];
+// console.log(arr2);
+// let arr3 = ["apple","mange","banana","grips"]
+// console.log(arr3);
+// let arr4 = ["apple","mange",[1,2,3],"banana","grips"]
+// console.log(arr4);
+
+// Create array using array constructor:
+// let arr = new Array("ali",2,3,4,5)
+// console.log(arr);
+
+// let arr = [1,2,3,4,5,6]
+// arr [2]=99;
+// console.log(arr);
+// arr[5]=33;
+// console.log(arr);
+
+
+
+
+
 
 
 
