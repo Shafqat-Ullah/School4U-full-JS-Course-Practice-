@@ -175,23 +175,17 @@
 // })
 // console.log(number);
 
+// let arr = [34,55,1,2,0,35]
+// arr.sort((a,b)=>{
+//     return a-b;
+// })
+// console.log(arr);
 
-
-
-
-
-
-
-
-
-
-let arr = [34,55,1,2,0,35]
-arr.sort((a,b)=>{
-    return a-b;
-})
-console.log(arr);
-
-    
+    let arr = [1,2,5,9,6,4];
+    arr.map((Element,index,arr)=>{
+        console.log(Element,index,arr);
+        
+    })
 
 
 
