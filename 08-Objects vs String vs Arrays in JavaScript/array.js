@@ -100,6 +100,34 @@
 // arr[5]=33;
 // console.log(arr);
 
+// let arr = [1,2,3,5,7,9,99]
+
+// for(i =0; i<arr.length; i++){
+//     console.log(arr[i] *2);
+    
+// }
+// for (let elem of arr){
+//     console.log(elem);
+    
+// }
+
+
+let arr =[1,2,3,5,"khan",6];
+// arr.push(88)  // add item it the start
+// console.log(arr);
+// arr.pop(); delate item for the end
+// console.log(arr);
+// arr.shift(3);  delate item from the start
+// console.log(arr);
+// arr.unshift(0);
+// console.log(arr);  add item form the start
+
+let newarr = arr.slice(1,3);
+console.log(newarr);
+
+
+
+
 
 
 
