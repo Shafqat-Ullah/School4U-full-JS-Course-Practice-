@@ -112,7 +112,7 @@
 // }
 
 
-let arr =[1,2,3,5,"khan",6];
+// let arr =[1,2,3,5,"khan",6];
 // arr.push(88)  // add item it the start
 // console.log(arr);
 // arr.pop(); delate item for the end
@@ -126,9 +126,72 @@ let arr =[1,2,3,5,"khan",6];
 // console.log(newarr);
 // arr.splice(1,2,77,88,99)
 // console.log(arr);
-arr.splice(4,2,"Shafqat Ullah",8,9)
+// arr.splice(4,2,"Shafqat Ullah",8,9)
+// console.log(arr);
+
+
+// let arr1 =[1,2,3,4,5]
+// let arr2=["ali ","khan","ahmad"]
+// // let newarr =arr1.concat(arr2)
+// // let newarry = [...arr1,...arr2]
+// // let join = arr1.join(" @ ")
+
+// // let available = arr2.includes("khan")
+// // let convert= arr2.toString("   ")
+// let find  = arr2.indexOf("khan")
+// console.log(find);
+
+// let fruits = ["apple","mango","banana"]
+// let result = fruits.find((fruits)=>fruits==="mango")
+// console.log(result);
+
+// let arr =["apple","mango",["banana","sab"],["etc"]]
+// let result = arr.flat(1)
+// console.log(result);
+// let fruits =["mango","banana","apple"]
+// fruits.sort()
+// console.log(fruits);
+
+
+// let numbers =[114,221,641,11,8,0]
+// numbers.sort((a,b)=>{
+//     //  console.log(b-a);
+//     return a-b;
+     
+// })
+// console.log(numbers);
+
+// // console.log(assinding);
+
+
+
+
+
+
+// let number = [44,22,66,77,88,11,2,0];
+// number.sort((a,b)=>{
+//     return a-b
+    
+// })
+// console.log(number);
+
+
+
+
+
+
+
+
+
+
+
+let arr = [34,55,1,2,0,35]
+arr.sort((a,b)=>{
+    return a-b;
+})
 console.log(arr);
 
+    
 
 
 
