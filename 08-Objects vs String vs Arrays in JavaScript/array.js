@@ -181,11 +181,32 @@
 // })
 // console.log(arr);
 
-    let arr = [1,2,5,9,6,4];
-    arr.map((Element,index,arr)=>{
-        console.log(Element,index,arr);
+    // let arr = [1,2,5,9,6,4];
+    // arr.map((Element,index,arr)=>{
+    //     console.log(Element,index,arr);
         
-    })
+    // })
+// let arr =[ 3,5,6,3,2,6,8];
+// let result = arr.map((Number)=>{
+//     return  Number*2
+// })
+// console.log(result);
+
+
+
+// let arr =[ 3,5,6,3,2,6,8];
+// let newarr =arr.map((arr)=>{
+//     return arr +5
+// })
+// console.log(newarr);
+
+// let fruits =["apple","banana","mango"]
+// let uppercase = fruits.map((fruits)=>{
+//     return fruits.toUpperCase();
+// })
+// console.log(fruits);
+
+// console.log(uppercase);
 
 
 
