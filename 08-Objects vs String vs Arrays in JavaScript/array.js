@@ -122,8 +122,13 @@ let arr =[1,2,3,5,"khan",6];
 // arr.unshift(0);
 // console.log(arr);  add item form the start
 
-let newarr = arr.slice(1,3);
-console.log(newarr);
+// let newarr = arr.slice(1,3);
+// console.log(newarr);
+// arr.splice(1,2,77,88,99)
+// console.log(arr);
+arr.splice(4,2,"Shafqat Ullah",8,9)
+console.log(arr);
+
 
 
 
