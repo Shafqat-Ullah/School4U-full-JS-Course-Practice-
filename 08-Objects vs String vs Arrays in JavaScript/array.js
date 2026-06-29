@@ -210,8 +210,32 @@
 
 
 
+// let arr = [2,3,4,6,7,8];
+// let sum = 0;
+// let newarr=arr.forEach((num)=>{
+    //     sum+=num;
+    // })
+    // console.log(sum);
+    
+    // let arr = [2,3,4,6,7,8];
+    // let arr = ["apple ","banana","mango"]
+    // let newarr = arr.forEach((element , arr)=>{
+    //     console.log(arr,element);
+        
+    // })
 
 
+//     let numbers = [1,2,4,5,6,7,8]
+// let newnum= numbers.forEach((numbers)=>{
+//     console.log(numbers,numbers*3);
+    
+// })
+
+let cart =["laptop","mouse","keyboard"]
+cart.forEach((cart)=>{
+    console.log("product:",cart);
+    
+})
 
 
 
