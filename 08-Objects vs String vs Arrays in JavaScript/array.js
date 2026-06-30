@@ -231,11 +231,28 @@
     
 // })
 
-let cart =["laptop","mouse","keyboard"]
-cart.forEach((cart)=>{
-    console.log("product:",cart);
+// let cart =["laptop","mouse","keyboard"]
+// cart.forEach((cart)=>{
+//     console.log("product:",cart);
     
-})
+// })
+
+// let students = ["ali","ahmad","bilal"];
+// students.forEach((students)=>{
+//     console.log("welcome "+students);
+    
+// })
+
+
+// let numbers = [1,2,3,4,5,6];
+// let result = numbers.forEach((num)=>{
+//     console.log(num);
+    
+// })
+// console.log(result);
+
+// let numbers = [1,2,3,4,5,6]
+
 
 
 
