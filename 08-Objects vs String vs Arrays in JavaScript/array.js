@@ -270,9 +270,137 @@
 
 // ......filter method
 
-let arr = [10,20,40,70]
-let newarr = arr.filter((a)=>a>25)
-console.log(newarr);
+// let arr = [10,20,40,70]
+// let newarr = arr.filter((a)=>a>25)
+// console.log(newarr);
+
+
+// let obj ={
+//     name : "Shafqat",
+//     deposit : (amount)=>{
+//       console.log(amount);
+        
+//     }
+// }
+// obj.deposit(  2222  )
+
+
+// ...........for each
+// let arr =[2,4,5,6,7,9]
+// arr.forEach((arr)=>{
+//     console.log(arr*2);
+    
+// })
+// ........... for each question
+// let colors = ["Red", "Blue", "Green"];
+// colors.forEach((colors)=>{
+//     console.log(colors);
+    
+// })
+
+// let marks = [70, 80, 90];
+// marks.forEach((marks=>{
+//     console.log(`Marks : ${marks}`);
+    
+// }))
+
+// let cities = ["Peshawar", "Karachi", "Lahore"];
+// let welcome = cities.forEach((cities)=>{
+//     console.log(`Welcome to : ${cities}`);
+    
+// })
+
+// let number =[1,23,55,66,77]
+// let result = number.map((number)=>{
+    //     // console.log(number*2 );
+    //     return number*2
+    
+    // })
+    // console.log(result);
+    
+    // let number =[1,23,55,66,77]
+    // let result = number.map((number)=>{
+    //     return number*2
+    // })
+    // console.log(number);
+    // console.log(result);
+    
+    
+
+    // let name = ["ali","khan","ahmad"]
+    // let welcome = name.map((name)=>{
+    //     console.log(`Welcome ${name}`);
+        
+    // })
+
+    // let price =[100,200,400,500,600]
+    // let discount = price.map((price)=>{
+    //     // console.log(price-20);
+    //     return price -20
+        
+    // })
+    // console.log(discount);
+    
+
+
+    // let students = [
+    //     {name : "ali",age :20},
+    //     {name : "Khan",age :10},
+    //     {name : "Ahmad",age : 30},
+    // ];
+    // let name = students.map((students)=>{
+    //    return students.name
+        
+    // })
+    // console.log(students);
+    
+
+    // let user =[
+    //     {Name :"Ali"},
+    //     {Name :"khan"},
+    //     {Name :"Ahmad"},
+    // ];
+    // let userName = user.map((user)=>{
+    //     return user.Name
+    // })
+    // console.log(userName);
+    
+
+//     let numbers = [1, 2, 3];
+
+// let result = numbers.forEach((num )=>{
+//     return num *2
+
+// });
+
+// console.log(result);
+
+// let numbers = [1, 2, 3];
+
+// let result = numbers.map(num => num * 2);
+
+// console.log(result);
+
+// let number = [20,30,40,50]
+// let result =  number .map((number)=>{
+//     return number*5
+// })
+// console.log(result);
+
+
+// Har name ke start mein "Mr. " add karo.
+// let names = ["ALI","AHMAD","KHAN"];
+// let MR = names.map((names)=>{
+//     console.log(`Mr ${names}`);
+    
+// })
+// console.log(MR);
+// Har price par 100 rupees discount lagao.
+// let price = [500,600,700,800];
+// let discount = price.map((price)=>{
+//     return price -100
+// })
+// console.log(discount);
 
 
 
