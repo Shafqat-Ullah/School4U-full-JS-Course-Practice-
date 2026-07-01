@@ -254,8 +254,25 @@
 // let numbers = [1,2,3,4,5,6]
 
 
+// let arr = [2,4,6];
+// let result = arr.forEach((num)=>num*2
+//     // return ;
+// )
+// console.log(result);
 
 
+// let arr =[1,2,3];
+// arr.forEach((num)=>{
+//     console.log(num*2);
+    
+// })
+
+
+// ......filter method
+
+let arr = [10,20,40,70]
+let newarr = arr.filter((a)=>a>25)
+console.log(newarr);
 
 
 
