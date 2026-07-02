@@ -455,8 +455,12 @@
 
 
 // 2. Create an array with the given length(n) and fill with 0.
-let n = 25;
-let arr = new Array(25).fil(0)
+// let n = 25;
+// let arr = new Array(25).fill(0)
+// console.log(arr);
+
+let n = 40;
+let arr = new Array (40).fill(0)
 console.log(arr);
 
 
