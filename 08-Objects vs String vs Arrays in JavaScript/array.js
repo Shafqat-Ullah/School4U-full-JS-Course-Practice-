@@ -403,4 +403,55 @@
 // console.log(discount);
 
 
+// let user =[
+//     {Name : "Shafqat Ullah"},
+//     {Name : "Ali KHan"},
+//     {Name : "Ahmad"}
+// ]
+// let userName = user.map((user)=>{
+//     // console.log();
+//     return user.Name
+    
+// })
+// console.log(userName);
+
+
+
+// let numbers =[2,3,4,5,6,7,8];
+// let total = numbers.reduce((a ,b)=>{
+    //     return a + b
+    // })
+    // console.log(total);
+    
+    // let number = [3,5,6,7,88,99];
+    // let max = number.reduce((num,largest)=>{
+    //     if(num>largest){
+    //         return num;
+    //     }
+    //     else{
+    //         return largest
+    //     }
+    // })
+    // console.log(max);
+    
+// let number = [33,4,5,56,88,99,44]
+// let min = number.reduce((small,num)=>{
+//     if(num<small){
+//         return num;
+//     }else{
+//         return small
+//     }
+// })
+// console.log(min);
+ 
+// 1. For an array with marks of students find the average marks of the entire class.
+let arr =[2,3,4,5]
+let sum = arr.reduce((a, b)=>{
+    return a+b;
+})
+let average = sum/arr.length
+console.log(`the sum of ${sum}`);
+console.log(`the avrage of ${average}`);
+
+
 
