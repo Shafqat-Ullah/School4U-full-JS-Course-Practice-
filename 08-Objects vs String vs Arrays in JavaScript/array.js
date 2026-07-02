@@ -445,13 +445,19 @@
 // console.log(min);
  
 // 1. For an array with marks of students find the average marks of the entire class.
-let arr =[2,3,4,5]
-let sum = arr.reduce((a, b)=>{
-    return a+b;
-})
-let average = sum/arr.length
-console.log(`the sum of ${sum}`);
-console.log(`the avrage of ${average}`);
+// let arr =[2,3,4,5]
+// let sum = arr.reduce((a, b)=>{
+//     return a+b;
+// })
+// let average = sum/arr.length
+// console.log(`the sum of ${sum}`);
+// console.log(`the avrage of ${average}`);
+
+
+// 2. Create an array with the given length(n) and fill with 0.
+let n = 25;
+let arr = new Array(25).fil(0)
+console.log(arr);
 
 
 
