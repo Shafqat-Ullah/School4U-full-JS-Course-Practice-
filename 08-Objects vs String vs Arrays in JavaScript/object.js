@@ -125,12 +125,33 @@
 // console.log(obj);
 
 
-let arr = [
-    {name :"a" ,role : "admain"},
-     {name :"b", role : "user"},
-      {name :"c", role : "admain"},
-]
-let filterditem = arr.filter((item) => {
-    console.log(item);
+// let arr = [
+//     {name :"a" ,role : "admain"},
+//      {name :"b", role : "user"},
+//       {name :"c", role : "admain"},
+// ]
+// let filterditem = arr.filter((item) => {
+//     console.log(item);
     
-})
+// })
+
+
+let car = {
+    
+    model : "honda",
+    color : "red",
+    speed : 120,
+    
+    stop:()=>{
+        console.log("Stop the car");
+        return 1;
+    },
+    start:()=>{
+        console.log("Start the car");
+        
+    }
+
+}
+console.log(car.speed);
+car["start"]()
+console.log(car.start);
