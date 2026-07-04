@@ -289,5 +289,70 @@
     
 // }
 
+// let students ={
+//     name : "Shafqat Ullah",
+//     address : "peshawar",
+//     age : 20,
+    
+// };
+// for(let key in students){
+//     console.log(students[key]);
+    
+// }
 
 
+
+// Object Methods (Function Inside Object)
+
+// let boy={
+//     name:"Ahmad",
+//     helloboy:function(){
+//         console.log("Hello boy");
+        
+//     }
+// };
+// boy.helloboy()
+
+// let boy = {
+//     name :"khan",
+//     sayhello(){
+//         console.log("Hello");
+        
+
+//     }
+// }
+// boy.sayhello()
+
+// this Keyword
+// let boy={
+//     name:"Ahmad Khan",
+//     age : 20,
+//     address:  "peshawar",
+//     intro(){
+//         console.log(`My name is ${this.name}`);
+        
+//     }
+// }
+// boy.intro()
+
+
+
+// Built-in Object Methods   Object.keys()
+// let student ={
+//     name :"ali khan",
+//     age : 20,
+//     city : "peshawar"
+// };
+// console.log(Object.keys(student));
+
+
+// Object.entries()     Keys aur values dono array ki form mein return karta hai.
+
+// let student ={
+//     name :"ali khan",
+//     age : 20,
+//     city : "peshawar"
+// };
+// console.log(Object.hasOwn(student,"name"));
+
+// Question 
