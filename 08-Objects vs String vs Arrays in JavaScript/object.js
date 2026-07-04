@@ -199,3 +199,57 @@
 // for (let test in obj)
 //     console.log(test);
     
+
+
+
+
+// .................... Obj topic ....................
+// let car ={
+//     model :"Honad",
+//     speed : "120",
+//     color : "black",
+//     price : 1230000
+// }
+// // console.log("the output of the car obj is :",car);
+// // console.log(car.price);
+
+// // console.log(car.color);
+// // console.log(car["model"]);
+// car.color="White"
+// car.year=2026;
+// delete car.color;
+// console.log(car);
+
+// console.log(car.color);/
+
+// let person = {
+//     name :"Shafqat Ullah",
+//     age : 21,
+//     isStudetnt : true,
+//     marks : 400,
+//     address : "peshawar"
+// }
+// console.log(person);
+
+
+
+// let student = {
+//     name :"Shafqat Ullah",
+//     address :{
+//         city : "Peshawar",
+//         country :"Pakistan"
+//     }
+// };
+// console.log(student);
+
+// let student ={
+//     Name :"Shafqat Ullah",
+//     Skill : ["HTML","CSS","JAVASCRIPT"]
+// }
+// // console.log(student);
+// console.log(student.Skill[1]);
+
+
+
+
+
