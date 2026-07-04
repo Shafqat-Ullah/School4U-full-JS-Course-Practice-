@@ -185,3 +185,17 @@
 // }
 // obj.fun()
 
+
+// let obj ={
+//     Name : "Shafqat Ullah",
+//     age : 22,
+// }
+// let key =Object.keys(obj);
+// console.log(key);
+
+// let Values = Object.values(obj)
+// console.log(Values);
+
+// for (let test in obj)
+//     console.log(test);
+    
