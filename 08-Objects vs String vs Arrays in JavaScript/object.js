@@ -251,5 +251,28 @@
 
 
 
+let Students =[
+    {
+        Name :"Ali",
+        Class :"5th",
+        age : 20,
+    },
+    {
+        Name :"Khan",
+        Class :"4th",
+        age : 22,
+        
+    },
+    {
+        Name :"Shafqat Ullah",
+        Class :"4th",
+        age : 22,
+        
+    }
+];
+// console.log(Students[1]);
+console.log(Students[2].Name);
+
+
 
 
