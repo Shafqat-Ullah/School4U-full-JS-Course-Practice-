@@ -356,3 +356,115 @@
 // console.log(Object.hasOwn(student,"name"));
 
 // Question 
+// Print:
+
+// Name
+
+// // Department
+
+// let student = {
+
+// name:"Shafqat",
+
+// age:22,
+
+// department:"BSCS",
+
+// semester:4
+
+// }
+// console.log(student.name);
+// console.log(student.department);
+
+// q2 update the value of price
+// let car = {
+
+// company:"Honda",
+
+// model:"Civic",
+
+// price:6000000
+
+// }
+// car.price = 5500000;
+// console.log(car);
+
+
+// Q3 ADD THE COLOR AND STORAGE
+// let phone = {
+
+// brand:"Samsung",
+
+// model:"A55"
+
+// }
+// phone.color="red";
+// phone.storage = 128;
+// console.log(phone);
+
+// Create an object with a nested object: Print only the city.
+// let employee = {
+//     name: "Ali",
+//     address: {
+//         city: "Peshawar",
+//         country: "Pakistan"
+//     }
+// };
+// console.log(employee.address["city"]);
+
+
+
+// Create an array of objects: Print:
+
+// Second student's name
+// Third student's marks
+
+// let students = [
+//     { name: "Ali", marks: 85 },
+//     { name: "Sara", marks: 92 },
+//     { name: "Ahmed", marks: 78 }
+// ];
+// console.log(students[1]);
+// console.log(students[2]);
+
+
+// let car ={
+//     name :"honad",
+//     model :2025,
+//     speed : 200
+// }
+// // Object.freeze(car)
+
+// car.name="aaaa"
+// console.log(car.hasOwnProperty('name'));
+
+// let car2 ={
+//     ...car
+// }
+// console.log(car2.hasOwan("name,honad"));
+
+// console.log(car2);
+// console.log(car2.hasOwan(name,"honda"));
+
+
+// let car ={
+//     model : "honda",
+//     speed : "200",
+//     color :"red"
+// }
+// console.log(car.model,car.speed);
+
+
+
+// Destructuring
+
+// const person = {
+// name: 'Alice',
+// age: 25,
+// city: 'New York'
+
+// };
+// const {name,age,city}=person
+// console.log(age);
+
+
