@@ -136,22 +136,52 @@
 // })
 
 
-let car = {
+// let car = {
     
-    model : "honda",
-    color : "red",
-    speed : 120,
+//     model : "honda",
+//     color : "red",
+//     speed : 120,
     
-    stop:()=>{
-        console.log("Stop the car");
-        return 1;
-    },
-    start:()=>{
-        console.log("Start the car");
+//     stop:()=>{
+//         console.log("Stop the car");
+//         return 1;
+//     },
+//     start:()=>{
+//         console.log("Start the car");
         
-    }
+//     }
 
-}
-console.log(car.speed);
-car["start"]()
-console.log(car.start);
+// }
+// console.log(car.speed);
+// car["start"]()
+// console.log(car.start);
+
+
+// let obj = new Object({ 
+//     name :"khan"
+// })
+// let obj2 ={
+//     address : "pakistan",
+//     phone : 12321
+// }
+// let obj3 = {
+//     car : "honda",
+//     speed : 120
+// }
+// obj.name="khan"
+// delete obj.name 
+// console.log(obj);
+// console.log(obj2);
+// console.log(obj3) ; 
+
+
+
+// let obj = {
+//     Name :"Shafqat Ullah",
+//     fun: function(){
+// console.log(`This name ${this.Name}`);
+
+//     }
+// }
+// obj.fun()
+
