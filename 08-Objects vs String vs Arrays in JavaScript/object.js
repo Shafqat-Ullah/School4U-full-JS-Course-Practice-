@@ -467,4 +467,126 @@
 // const {name,age,city}=person
 // console.log(age);
 
+// let student={
+// name :"Shafqat Ullah",
+// age :20,
+// city : "peshawar"
 
+// }
+// student.email="abc@email.com"
+// delete student .city
+// for (let value in student){
+//     console.log(`value of ${value} is ${student[value]}`);
+    
+// }
+
+// Create a function that takes an object with firstName, middleName, lastName properties and returns 
+// the full name.
+
+
+// let obj ={
+//     fristName : "Shafqat ",
+//     middalName: "Ullah",
+//     lastName :"Salih"
+// }
+// let concate=(obj)=>{
+//   console.log(` full name is ${obj.fristName}${obj.middalName}${obj.lastName}`);
+  
+// }
+// concate(obj);
+
+// 3. Write a function that takes object and returns the number of properties in an object.
+
+// let obj ={
+//     name :"Ali",
+//     age : 22,
+//     city:"peshawar"
+// }
+// let keyes =Object.keys(obj).length;
+// console.log(keyes);
+
+// 4.
+
+// Write a function that returns an array of names of users who have the role "admin".
+
+// let arr = [
+//     {name: "a", role: "admin"},
+//     {name: "b", role: "user"},
+//     {name: "c", role: "admin"},
+//     {name: "d", role: "superAdmin"},
+//     {name: "e", role: "admin"},
+// ]
+
+// function filterArray(arr, role){
+//     let filteredItem = arr.filter((item)=>{
+//         return item.role === role
+//     })
+//     let resultArray = filteredItem.map(item=>{
+//         return item.name
+//     })
+//     return resultArray
+// }
+
+// let resultArray = filterArray(arr, 'superAdmin')
+// console.log(resultArray)
+
+
+
+// const users = [
+//   { name: "Alice", role: "admin" },
+//   { name: "Bob", role: "user" },
+//   { name: "Charlie", role: "admin" }
+// ];
+
+// function getAdmins() {
+
+//   let adminNames = [];
+
+//   for(let i = 0; i < users.length; i++) {
+
+//     if(users[i].role == "admin") {
+
+//       adminNames.push(users[i].name);
+
+//     }
+
+//   }
+
+//   return adminNames;
+// }
+
+// console.log(getAdmins());
+
+
+// 5. Write a function searchProducts(products, keyword) that returns an array of products whose name
+// includes the given keyword (case-insensitive).
+
+// const products = [
+// { id: 1, name: "iPhone 14" },
+// { id: 2, name: "Samsung Galaxy" },
+// { id: 3, name: "Google Pixel" }]
+
+//  function search (products,search_item){
+//     products.filter((obj)=>{
+
+//         console.log(obj);
+//     })
+    
+// }
+// search(products)
+
+
+let products = [
+    {id:1, name: "samsung Galaxy"},
+    {id:2, name: "poco m24"},
+    {id:3, name: "apple m2"}
+]
+
+function search(products, searchKeyword){
+    let filteredArray = products.filter(obj=>{
+        return obj.name.toLowerCase().includes(searchKeyword.toLowerCase())
+    })
+    console.log(filteredArray)
+}
+
+search(products, "2");
