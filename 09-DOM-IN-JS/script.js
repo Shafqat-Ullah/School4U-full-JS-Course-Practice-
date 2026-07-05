@@ -1,3 +1,3 @@
-let a = 20 ;
-let b = 30;
-console.log(a, b);
+let a = document.querySelector("h1");
+console.log(a);
+                
