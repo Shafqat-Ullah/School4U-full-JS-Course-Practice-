@@ -576,17 +576,70 @@
 // search(products)
 
 
-let products = [
-    {id:1, name: "samsung Galaxy"},
-    {id:2, name: "poco m24"},
-    {id:3, name: "apple m2"}
-]
+// let products = [
+//     {id:1, name: "samsung Galaxy"},
+//     {id:2, name: "poco m24"},
+//     {id:3, name: "apple m2"}
+// ]
 
-function search(products, searchKeyword){
-    let filteredArray = products.filter(obj=>{
-        return obj.name.toLowerCase().includes(searchKeyword.toLowerCase())
-    })
-    console.log(filteredArray)
-}
+// function search(products, searchKeyword){
+//     let filteredArray = products.filter(obj=>{
+//         return obj.name.toLowerCase().includes(searchKeyword.toLowerCase())
+//     })
+//     console.log(filteredArray)
+// }
 
-search(products, "2");
+// search(products, "2");
+
+
+// // questin 6:
+
+// let comments = [
+//     { postId: 1, comment: "hello" },
+//     { postId: 2, comment: "owesome video bhaiya" },
+//     { postId: 1, comment: "how are you" },
+//     { postId: 1, comment: "hello" },
+//     { postId: 2, comment: "owesome video bhaiya" },
+//     { postId: 1, comment: "how are you" }
+// ]
+
+
+// function groupByPost(comments) {
+//     let groupedComments = {}
+
+//     comments.forEach(obj => {
+//         let { postId, comment } = obj;
+//         if (groupedComments.hasOwnProperty(postId)) {
+//             groupedComments[postId].push(comment)
+//         } else {
+//             groupedComments[postId] = [comment]
+//         }
+//     });
+
+//     console.log(groupedComments)
+
+// }
+
+// groupByPost(comments)
+
+// // question 7:
+
+// let params = {
+//     search: "alpha",
+//     page: 2,
+//     sort: 'asc',
+//     falna: 'aldsjf',
+// }
+
+// function createUrl(params){
+//     let url = "";
+//     for(let key in params){
+//         url = url + `${key}=${params[key]}&`
+//     }
+//     let finalUrl = url.slice(0, url.length-1)
+//     return finalUrl
+// }
+
+
+// let url = createUrl(params)
+// console.log(url)
