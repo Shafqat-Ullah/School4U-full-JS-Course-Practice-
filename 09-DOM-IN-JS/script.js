@@ -72,7 +72,34 @@
 //     div=document.querySelector('div')
     
 //     div.style.backgroundColor='red'
-//     btn.innerHTML='OFF'
+//     // btn.innerHTML='OFF'
  
 
 // })
+// let btn2 =document.querySelector('.offBtn')
+// btn2.addEventListener('click',()=>{
+//     div.style.backgroundColor='black'
+// })
+
+
+
+
+
+
+
+
+
+
+
+
+let btn=document.querySelector('.ON')
+btn.addEventListener('click',()=>{
+    div=document.querySelector('div')
+    div.style.backgroundColor ='red'
+})
+let btn2=document.querySelector('.offBtn')
+btn2.addEventListener('click',()=>{
+    div=document.querySelector('div')
+    div.style.backgroundColor ='black'
+})
+
