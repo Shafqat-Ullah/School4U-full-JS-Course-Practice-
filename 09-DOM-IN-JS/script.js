@@ -30,9 +30,49 @@
 // parColor.style.color=("White")
 
 // Event Listener (event ko kisi sona jiea)
-let btn = document.querySelector("button")
-btn.addEventListener('click',()=>{
-btn.style.backgroundColor="red";
-btn.style.backgroundColor="yellow";
-btn.style.color='green'
-})
+// let btn = document.querySelector("button")
+// btn.addEventListener('click',()=>{
+// btn.style.backgroundColor="red";
+// btn.style.backgroundColor="yellow";
+// btn.style.color='green'
+// })
+
+
+
+// ......try question
+
+// let a = document.querySelector("h1")
+// console.log(a);
+// a.innerHTML ="how are you bro";
+// a.style.backgroundColor="red";
+// a.style.color="white",
+
+// let btn = document.querySelector("button")
+// btn.addEventListener('click',()=>{
+//     btn.style.backgroundColor='red'
+// })
+
+// let par = document.querySelector('p')
+// par.style.color='green';
+// par.style.backgroundColor='red'
+
+
+// let parClicked = document.querySelector('p')
+// parClicked.addEventListener('click',()=>{
+//     // parClicked.style.color='red'
+//     // alert("hello bro ap ne to click kar lei ha")
+//     parClicked.innerHTML='hello you aslo clciked on para so the clicked is apply'
+//     parClicked.style.fontSize='50px'
+//     parClicked.style.color='red'
+// })
+
+
+// let btn = document.querySelector('button')
+// btn.addEventListener('click',()=>{
+//     div=document.querySelector('div')
+    
+//     div.style.backgroundColor='red'
+//     btn.innerHTML='OFF'
+ 
+
+// })
