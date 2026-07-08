@@ -96,20 +96,26 @@
 // })
 
 // Now Scale OR Zoom the shape
-let btn =document.querySelector('.ON')
-btn.addEventListener('click',()=>{
+// let btn =document.querySelector('.ON')
+// btn.addEventListener('click',()=>{
 
-    div=document.querySelector('div')
-    div.style.backgroundColor = 'red'
-    div.style.scale ='0.5'
-        div.style.border = '5px solid gray'
+//     div=document.querySelector('div')
+//     div.style.backgroundColor = 'red'
+//     div.style.scale ='0.5'
+//         div.style.border = '5px solid gray'
 
-})
-let offBtn =document.querySelector('.offBtn')
-offBtn.addEventListener('click',()=>{
+// })
+// let offBtn =document.querySelector('.offBtn')
+// offBtn.addEventListener('click',()=>{
 
-    div=document.querySelector('div')
-    div.style.backgroundColor = 'black'
-    div.style.border = '5px solid yellow'
-    div.style.scale ='1'
-})
+//     div=document.querySelector('div')
+//     div.style.backgroundColor = 'black'
+//     div.style.border = '5px solid yellow'
+//     div.style.scale ='1'
+// })
+// console.log(window);
+
+// let div = document.querySelector('div')
+// console.log(div);
+let div = document.getElementsByTagName('div')
+console.log(div);
