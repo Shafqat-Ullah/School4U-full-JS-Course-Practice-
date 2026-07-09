@@ -142,12 +142,15 @@
 // let div=document.querySelector('.box1')
 // console.log(div.firstChild);
 
-let tagName = document.querySelector('h1');
-console.log(tagName.tagName);
-console.log(tagName.nodeName);
-console.log(tagName.firstChild);
-// tagName.innerHTML=('hello bro')
-console.log(tagName.innerHTML);
-console.log(tagName.textContent);
+// let tagName = document.querySelector('h1');
+// console.log(tagName.tagName);
+// console.log(tagName.nodeName);
+// console.log(tagName.firstChild);
+// // tagName.innerHTML=('hello bro')
+// console.log(tagName.innerHTML);
+// console.log(tagName.textContent);
 
-
+let dev = document.querySelector('div')
+let elem = document.createElement('p')
+elem.innerText="hello bro"
+dev.append(elem)
