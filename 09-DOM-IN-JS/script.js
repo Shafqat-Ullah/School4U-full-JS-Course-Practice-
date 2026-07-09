@@ -117,5 +117,25 @@
 
 // let div = document.querySelector('div')
 // console.log(div);
-let div = document.getElementsByTagName('div')
-console.log(div);
+// let div = document.getElementsByTagName('div')
+// console.log(div);
+
+// console.log(document);
+// console.dir(document)
+// let a = document.getElementsByName('div')
+// console.log(a);
+
+// let id = document.getElementById('div1')
+// id.style.backgroundColor='yellow'
+// console.log(id);
+
+
+// let box = document.getElementsByClassName('box1')
+// box[0].style.backgroundColor='black'
+// console.log(box);
+
+let box= document.querySelector('.box1')
+console.log(box);
+
+let box2 = document.querySelectorAll('box1')
+console.log(box2);
