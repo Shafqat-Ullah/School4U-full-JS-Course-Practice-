@@ -139,6 +139,15 @@
 
 // let box2 = document.querySelectorAll('box1')
 // console.log(box2);
+// let div=document.querySelector('.box1')
+// console.log(div.firstChild);
 
-console.log();
+let tagName = document.querySelector('h1');
+console.log(tagName.tagName);
+console.log(tagName.nodeName);
+console.log(tagName.firstChild);
+// tagName.innerHTML=('hello bro')
+console.log(tagName.innerHTML);
+console.log(tagName.textContent);
+
 
