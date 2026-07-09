@@ -134,8 +134,11 @@
 // box[0].style.backgroundColor='black'
 // console.log(box);
 
-let box= document.querySelector('.box1')
-console.log(box);
+// let box= document.querySelector('.box1')
+// console.log(box);
 
-let box2 = document.querySelectorAll('box1')
-console.log(box2);
+// let box2 = document.querySelectorAll('box1')
+// console.log(box2);
+
+console.log();
+
