@@ -1,4 +1,19 @@
-h1{
+/* h1{
     background-color: rgb(19, 29, 29);
     color: rgb(228, 12, 12);
+} */
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(3, 104, 69);
+    border: 3px solid rgb(225, 20, 112);
+    transition: 2s;
+}
+p{
+    background-color: red;
+    border: 2px solid black;
+}
+button{
+    margin: 10px;
 }
