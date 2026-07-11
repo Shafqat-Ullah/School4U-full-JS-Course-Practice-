@@ -200,6 +200,30 @@
 
 // console.log(box.attributes.class.value);
 // question No 1
-let text = document.querySelector('p')
-text.style.backgroundColor='black';
-text.style.color='green'
+// let text = document.querySelector('p')
+// text.style.backgroundColor='black';
+// text.style.color='green'
+
+// let text = document.createElement('p')
+// text.innerHTML='ma tum se payar nahi karta ho'
+// let body = document.querySelector('body')
+// body.append(text)
+// // text.style.backgroundColor='black'
+// // text.style.color='green'
+// text.setAttribute('style','background-color:black;color:green')
+// console.log(text);
+
+// let button = document.createElement('button')
+// button.innerHTML='click me'
+// text.prepend(button)
+
+
+let para = document.createElement('p')
+para.innerHTML='hello bro how are you'
+let body = document.querySelector('body')
+body.append(para)
+para.style.backgroundColor='green';
+para.style.color='red';
+let button = document.createElement('button')
+button.innerHTML='click me'
+para.prepend(button)
