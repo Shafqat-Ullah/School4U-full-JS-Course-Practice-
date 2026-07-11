@@ -150,7 +150,36 @@
 // console.log(tagName.innerHTML);
 // console.log(tagName.textContent);
 
-let dev = document.querySelector('div')
-let elem = document.createElement('p')
-elem.innerText="hello bro"
-dev.append(elem)
+// let dev = document.querySelector('div')
+// let elem = document.createElement('p')
+// elem.innerText="hello bro"
+// dev.append(elem)
+
+// let box = document.querySelector('div')
+// let para = document.createElement('p')
+// para.innerText='are you fine'
+// box.append(para)
+
+
+// Now we want to add element at the start
+// let box2 = document.querySelector('div')
+// let para2 = document.createElement("p")
+// para2.innerText = ("this is perpend")
+// box2.prepend(para2)
+
+
+// let a = document.querySelector('div')
+// let b =document.createElement('p')
+// b.innerHTML=('hello bro')
+// a.append(b)
+
+// let c = document.querySelector('div')
+// let d =document.createElement('p')
+// d.innerHTML=('hellhhhhhho bro')
+// a.prepend(d)
+//  before and after
+// let a = document.querySelector('div')
+// let b = document.createElement('p')
+// b.innerHTML='hello are you fine'
+// a.before(b)
+// a.after(b)
