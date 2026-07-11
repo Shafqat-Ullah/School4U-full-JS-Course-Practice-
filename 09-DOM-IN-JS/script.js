@@ -177,9 +177,18 @@
 // let d =document.createElement('p')
 // d.innerHTML=('hellhhhhhho bro')
 // a.prepend(d)
-//  before and after
+// //  before and after
 // let a = document.querySelector('div')
 // let b = document.createElement('p')
 // b.innerHTML='hello are you fine'
 // a.before(b)
 // a.after(b)
+// a.insertAdjacentElement('beforeend',b)
+
+// Remove
+let a  = document.querySelector('div')
+let b = document.createElement('h1')
+b.innerText='hello brrrrrrrrro'
+a.append(b)
+let c = a.children[2];
+c.remove()
