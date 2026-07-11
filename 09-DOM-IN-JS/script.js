@@ -186,9 +186,20 @@
 // a.insertAdjacentElement('beforeend',b)
 
 // Remove
-let a  = document.querySelector('div')
-let b = document.createElement('h1')
-b.innerText='hello brrrrrrrrro'
-a.append(b)
-let c = a.children[2];
-c.remove()
+// let a  = document.querySelector('div')
+// let b = document.createElement('h1')
+// b.innerText='hello brrrrrrrrro'
+// a.append(b)
+// let c = a.children[2];
+// c.remove()
+
+// Attribute
+// let box = document.querySelector('.box')
+// console.log(box.getAttribute('title'));
+// box.getAttribute('class','change')
+
+// console.log(box.attributes.class.value);
+// question No 1
+let text = document.querySelector('p')
+text.style.backgroundColor='black';
+text.style.color='green'
