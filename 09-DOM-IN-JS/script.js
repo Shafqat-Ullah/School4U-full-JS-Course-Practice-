@@ -237,3 +237,17 @@
 // // box.setAttribute('style','background-color:yellow')
 // box.style.cssText='background-color:red;font-size:40px;color:white;text-align:center;border-radius:30px'
 
+
+
+// CSS MANIPULATION IN JS:
+// 1) using attribute Method
+// let box = document.querySelector('.box')
+// // box.setAttribute('style','background-color:red')
+
+//  2) using style
+// let box = document.querySelector('.box')
+// box.style.backgroundColor='red'
+
+// 3) using text property
+let box = document.querySelector('.box')
+box.style.cssText='background-color:red;font-size:50px; text-align:center;border-radius:30px'
