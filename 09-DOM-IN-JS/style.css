@@ -3,7 +3,7 @@
     color: rgb(228, 12, 12);
 } */
 
-div{
+/* div{
     width: 200px;
     height: 200px;
     background-color: rgb(3, 104, 69);
@@ -16,4 +16,14 @@ p{
 }
 button{
     margin: 10px;
+} */
+.box{
+    padding: 20px;
+    /* width: 100px;
+    height: 100px; */
+    background-color: red;
+}
+.box2{
+text-decoration: underline;
+border-radius: 5%;
 }
