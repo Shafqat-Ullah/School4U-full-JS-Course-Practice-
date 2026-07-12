@@ -218,12 +218,17 @@
 // text.prepend(button)
 
 
-let para = document.createElement('p')
-para.innerHTML='hello bro how are you'
-let body = document.querySelector('body')
-body.append(para)
-para.style.backgroundColor='green';
-para.style.color='red';
-let button = document.createElement('button')
-button.innerHTML='click me'
-para.prepend(button)
+// let para = document.createElement('p')
+// para.innerHTML='hello bro how are you'
+// let body = document.querySelector('body')
+// body.append(para)
+// para.style.backgroundColor='green';
+// para.style.color='red';
+// let button = document.createElement('button')
+// button.innerHTML='click me'
+// para.prepend(button)
+
+let div = document.querySelector('.box')
+div.setAttribute('class',`${div.getAttribute('class')} box2`)
+console.log(div.getAttribute('class'));
+
