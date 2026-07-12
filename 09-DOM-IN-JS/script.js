@@ -228,7 +228,12 @@
 // button.innerHTML='click me'
 // para.prepend(button)
 
-let div = document.querySelector('.box')
-div.setAttribute('class',`${div.getAttribute('class')} box2`)
-console.log(div.getAttribute('class'));
+// let div = document.querySelector('.box')
+// div.setAttribute('class',`${div.getAttribute('class')} box2`)
+// console.log(div.getAttribute('class'));
+
+// let box = document.querySelector('.box');
+// // box.style.backgroundColor ='red'
+// // box.setAttribute('style','background-color:yellow')
+// box.style.cssText='background-color:red;font-size:40px;color:white;text-align:center;border-radius:30px'
 
