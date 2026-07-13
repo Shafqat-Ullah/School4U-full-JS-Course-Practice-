@@ -249,5 +249,22 @@
 // box.style.backgroundColor='red'
 
 // 3) using text property
-let box = document.querySelector('.box')
-box.style.cssText='background-color:red;font-size:50px; text-align:center;border-radius:30px'
+// let box = document.querySelector('.box')
+// box.style.cssText='background-color:red;font-size:50px; text-align:center;border-radius:30px'
+// box.classList('blueBg')
+
+
+
+let node = document.querySelector(".box");
+
+// Add class
+node.classList.add("red");
+
+// Check class
+console.log(node.classList.contains("red")); // true
+
+// Remove class
+node.classList.remove("red");
+
+// Toggle class
+node.classList.toggle("red");
