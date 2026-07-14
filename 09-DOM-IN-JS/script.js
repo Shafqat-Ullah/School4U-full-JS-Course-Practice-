@@ -269,21 +269,58 @@
 // // Toggle class
 // node.classList.toggle("red");
 
-let btn  = document.querySelector('button')
-let body = document.querySelector('body');
+// let btn  = document.querySelector('button')
+// let body = document.querySelector('body');
+// let theme = 'light'
+// btn.addEventListener('click',()=>{
+// if(theme === 'light'){
+//     body.style.backgroundColor='black'
+//     body.style.color='white'
+//     btn.innerText='light'
+//     theme = 'black'
+// }
+// else {
+//     body.style.backgroundColor='white'
+//     body.style.color='black'
+//     btn.innerText='Dark'
+//     theme ='light'
+// }
+// })
+// btn.style.backgroundColor=('red')
+
+// let button = document.querySelector('button')
+// let body = document.querySelector('body');
+// let theme = 'light'
+// button.addEventListener('click',()=>{
+//     if (theme === 'light'){
+//         body.style.backgroundColor='black'
+//         body.style.color='white'
+//         theme='black'
+//     }
+//     else{
+//         body.style.backgroundColor ='white'
+//         body.style.color ='black'
+//         theme='light'
+//     }
+// })
+
+
+
+// Question No 1:
+let button = document.querySelector('button')
+let body = document.querySelector('body')
 let theme = 'light'
-btn.addEventListener('click',()=>{
-if(theme === 'light'){
+button.addEventListener('click',()=>{
+
+if (theme === 'light'){
     body.style.backgroundColor='black'
     body.style.color='white'
-    btn.innerText='light'
-    theme = 'black'
+    theme='dark'
+
 }
-else {
+else{
     body.style.backgroundColor='white'
     body.style.color='black'
-    btn.innerText='Dark'
-    theme ='light'
+    theme='light'
 }
 })
-// btn.style.backgroundColor=('red')
