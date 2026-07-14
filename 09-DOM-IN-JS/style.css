@@ -17,13 +17,21 @@ p{
 button{
     margin: 10px;
 } */
-.box{
-    padding: 20px;
+/* .box{
+    padding: 20px; */
     /* width: 100px;
     height: 100px; */
-    background-color: red;
+    /* background-color: red;
 }
 .box2{
 text-decoration: underline;
 border-radius: 5%;
+} */
+.light{
+    background-color: white;
+    color: black;
+}
+.dark{
+    background-color: black;
+    color: white;
 }
