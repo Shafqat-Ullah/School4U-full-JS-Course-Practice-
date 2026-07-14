@@ -352,8 +352,8 @@
 
 
 // question no 2:
-let button = document.querySelector('button')
-let body = document.querySelector('body')
-button.addEventListener('click',()=>{
-    body.classList.toggle('dark')
-})
+// let button = document.querySelector('button')
+// let body = document.querySelector('body')
+// button.addEventListener('click',()=>{
+//     body.classList.toggle('dark')
+// })
