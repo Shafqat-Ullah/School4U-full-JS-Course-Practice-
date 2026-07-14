@@ -307,20 +307,45 @@
 
 
 // Question No 1:
+// let button = document.querySelector('button')
+// let body = document.querySelector('body')
+// let theme = 'light'
+// button.addEventListener('click',()=>{
+
+// if (theme === 'light'){
+//     body.style.backgroundColor='black'
+//     body.style.color='white'
+//     theme='dark'
+
+// }
+// else{
+//     body.style.backgroundColor='white'
+//     body.style.color='black'
+//     theme='light'
+// }
+// })
+
+// let button=document.querySelector('button')
+// let body=document.querySelector('body')
+// button.addEventListener('click',()=>{
+
+//     if(body.className==='light'){
+//         body.className='dark'
+//     }
+//     else{
+//         body.className='light'
+//     }
+// })
+
+
+
 let button = document.querySelector('button')
 let body = document.querySelector('body')
-let theme = 'light'
 button.addEventListener('click',()=>{
-
-if (theme === 'light'){
-    body.style.backgroundColor='black'
-    body.style.color='white'
-    theme='dark'
-
-}
-else{
-    body.style.backgroundColor='white'
-    body.style.color='black'
-    theme='light'
-}
+    if(body.className==='light'){
+        body.className='dark'
+    }
+    else{
+        body.className='light'
+    }
 })
