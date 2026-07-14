@@ -339,13 +339,21 @@
 
 
 
+// let button = document.querySelector('button')
+// let body = document.querySelector('body')
+// button.addEventListener('click',()=>{
+//     if(body.className==='light'){
+//         body.className='dark'
+//     }
+//     else{
+//         body.className='light'
+//     }
+// })
+
+
+// question no 2:
 let button = document.querySelector('button')
 let body = document.querySelector('body')
 button.addEventListener('click',()=>{
-    if(body.className==='light'){
-        body.className='dark'
-    }
-    else{
-        body.className='light'
-    }
+    body.classList.toggle('dark')
 })
