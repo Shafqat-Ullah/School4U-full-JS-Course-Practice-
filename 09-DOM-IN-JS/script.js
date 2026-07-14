@@ -255,16 +255,35 @@
 
 
 
-let node = document.querySelector(".box");
+// let node = document.querySelector(".box");
 
-// Add class
-node.classList.add("red");
+// // Add class
+// node.classList.add("red");
 
-// Check class
-console.log(node.classList.contains("red")); // true
+// // Check class
+// console.log(node.classList.contains("red")); // true
 
-// Remove class
-node.classList.remove("red");
+// // Remove class
+// node.classList.remove("red");
 
-// Toggle class
-node.classList.toggle("red");
+// // Toggle class
+// node.classList.toggle("red");
+
+let btn  = document.querySelector('button')
+let body = document.querySelector('body');
+let theme = 'light'
+btn.addEventListener('click',()=>{
+if(theme === 'light'){
+    body.style.backgroundColor='black'
+    body.style.color='white'
+    btn.innerText='light'
+    theme = 'black'
+}
+else {
+    body.style.backgroundColor='white'
+    body.style.color='black'
+    btn.innerText='Dark'
+    theme ='light'
+}
+})
+// btn.style.backgroundColor=('red')
