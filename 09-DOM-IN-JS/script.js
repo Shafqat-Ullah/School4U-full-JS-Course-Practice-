@@ -357,3 +357,15 @@
 // button.addEventListener('click',()=>{
 //     body.classList.toggle('dark')
 // })
+// let button = document.querySelector('.btn2')
+// button.onclick= () => {
+    // alert("you also click on the button");
+// };
+// button.addEventListener('click',()=>{
+//     alert("hello bro")
+// })
+// let button = document.querySelector('.btn');
+
+// button.onclick = () => {
+//     alert("You clicked the button!");
+// };
