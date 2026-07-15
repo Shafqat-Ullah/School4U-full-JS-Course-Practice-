@@ -1,6 +1,8 @@
 
 // 1 DOM
 
+const { number } = require("zod")
+
 // 2 SELECTION OF HTML ELEMENT
 // let a = document.querySelector("h1");
 // console.log(a);
@@ -369,3 +371,74 @@
 // button.onclick = () => {
 //     alert("You clicked the button!");
 // };
+
+
+// ................event object.............
+// let button= document.querySelector('button')
+// button.addEventListener('click',(Event)=>{
+//     alert(Event)
+// })
+
+let button = document.querySelector('button')
+let box = document.querySelector('.box')
+// box.addEventListener('mousedown',()=>{
+//     console.log('the mouse is down');
+//     box.addEventListener('mouseup',()=>{
+//         console.log('mouse is up')
+//     })
+// })
+// box.addEventListener('mouseenter',()=>{
+//     console.log('mouse enter ho jiea ha');
+    
+// })
+// box.addEventListener('mouseleave',()=>{
+//     alert('mouse leave ho jiea ha');
+    
+// })
+// console.log('hello brrror');
+
+
+// box.addEventListener("mouseup", function () {
+//     console.log("Mouse Button Released");
+// });
+// box.addEventListener("mouseenter", function () {
+//     console.log("Mouse Enter");
+// });
+
+
+// let decrement = document.querySelector('.decbtn')
+// let increment = document.querySelector('.incbtn')
+
+// let counterValue = document.querySelector('.counterValue')
+// // let value = number(counterValue.innerHTML);
+// // if(value<=1){
+// //     return;
+// // }
+// decrement.addEventListener('click',()=>{
+//     counterValue.innerText=Number( counterValue.innerText )-1;
+    
+// })
+// increment.addEventListener('click',()=>{
+//     counterValue.innerText=Number(counterValue.innerText )+1;
+    
+// })
+
+
+
+let decBtn = document.querySelector('.decbtn');
+let incBtn = document.querySelector('.incbtn');
+let counterValue = document.querySelector('.counterValue');
+
+decBtn.addEventListener('click', () => {
+    let value = Number(counterValue.innerText);
+
+    if (value <= 0) {
+        return;
+    }
+
+    counterValue.innerText = value - 1;
+});
+
+incBtn.addEventListener('click', () => {
+    counterValue.innerText = Number(counterValue.innerText) + 1;
+});
