@@ -46,5 +46,38 @@
 
 let randomBtn = document.querySelector('.randomBtn')
 let colorInput = document.querySelector('#colorInput')
-let applyBtn = document.querySelector('applyBtn')
+let applyBtn = document.querySelector('.applyBtn')
 let currentColorValue = document.querySelector('.currentColorValue')
+let contianer = document.querySelector('.contianer')
+
+const arrayColor = ['red','green','yellow','blue','pink','gary','skyblue']
+
+
+ const generateRandomColor = ()=>{
+    const randomNumber =Math.floor( Math.random()* arrayColor.length)
+return arrayColor [randomNumber]    
+ }
+let color = generateRandomColor();
+console.log(color);
+
+const changeColor =(color)=>{
+contianer.style.backgroundColor = color;
+currentColorValue.innerHTML = color
+}
+
+
+const randomBtnClick = ()=>{
+    let color = generateRandomColor();
+    changeColor(color)
+    // const color = 'random buton'
+//    changeColor 
+}
+const applyBtnClick = ()=>{
+    const color =colorInput.value ;
+    changeColor(color)
+}
+
+randomBtn.addEventListener('click',randomBtnClick)
+applyBtn.addEventListener('click',applyBtnClick)
+
+// changeColor('red')
