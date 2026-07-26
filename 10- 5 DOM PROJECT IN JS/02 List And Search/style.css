@@ -1,0 +1,250 @@
+
+/* ................MY CODE.............. */
+
+
+/* *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+        background-color: rgb(125, 129, 129);
+
+}
+.container{
+   
+background-color: white;   
+ max-width: 30rem;
+    margin:50px auto;
+    display: flex;
+flex-direction: column;
+gap: 20px;
+
+    align-items:center ;
+    padding: 50px 20px ;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.553) ;
+    border-radius:20px ;
+}
+#searchInput{
+    padding: 20px 50px;
+    width: 100%;
+    border: 1px solid black;
+}
+.userContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 40px ;
+    text-align: center;
+}
+.userInput{
+    display: flex;
+    background-color: rgb(230, 226, 226);
+    gap: 30px;
+    align-items: center;
+    padding: 5px 20px;
+}
+.userContainer .userInput img{
+width: 80px;
+border-radius: 50%;
+}
+.userDeatils{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+} */
+
+/* ..............AI UI CODE.............. */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Inter,"Segoe UI",sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:40px 20px;
+    background:
+    radial-gradient(circle at top left,#4f46e5 0%,transparent 40%),
+    radial-gradient(circle at bottom right,#06b6d4 0%,transparent 35%),
+    #0f172a;
+}
+
+.container{
+    width:100%;
+    max-width:700px;
+    background:rgba(255,255,255,.08);
+    backdrop-filter:blur(25px);
+    border:1px solid rgba(255,255,255,.15);
+    border-radius:28px;
+    padding:35px;
+    box-shadow:
+    0 25px 60px rgba(0,0,0,.45),
+    inset 0 1px 0 rgba(255,255,255,.2);
+}
+
+.heading{
+    color:#fff;
+    text-align:center;
+    font-size:34px;
+    font-weight:700;
+    letter-spacing:.5px;
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+
+#searchInput{
+    width:100%;
+    padding:18px 24px;
+    border:none;
+    outline:none;
+    border-radius:18px;
+    background:rgba(255,255,255,.12);
+    color:#fff;
+    font-size:16px;
+    transition:.35s;
+    border:2px solid transparent;
+}
+
+#searchInput::placeholder{
+    color:#cbd5e1;
+}
+
+#searchInput:focus{
+    background:rgba(255,255,255,.18);
+    border-color:#38bdf8;
+    box-shadow:0 0 25px rgba(56,189,248,.35);
+}
+
+.userContainer{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+    margin-top:5px;
+}
+
+.userInput{
+    display:flex;
+    align-items:center;
+    gap:18px;
+    padding:18px;
+    border-radius:22px;
+    background:rgba(255,255,255,.08);
+    border:1px solid rgba(255,255,255,.12);
+    cursor:pointer;
+    transition:.35s ease;
+    position:relative;
+    overflow:hidden;
+}
+
+.userInput::before{
+    content:"";
+    position:absolute;
+    left:-100%;
+    top:0;
+    width:100%;
+    height:100%;
+    background:linear-gradient(
+        90deg,
+        transparent,
+        rgba(255,255,255,.18),
+        transparent
+    );
+    transition:.6s;
+}
+
+.userInput:hover::before{
+    left:100%;
+}
+
+.userInput:hover{
+    transform:translateY(-6px) scale(1.02);
+    background:rgba(255,255,255,.12);
+    border-color:#38bdf8;
+    box-shadow:0 18px 35px rgba(0,0,0,.35);
+}
+
+.userContainer .userInput img{
+    width:78px;
+    height:78px;
+    object-fit:cover;
+    border-radius:50%;
+    border:4px solid #38bdf8;
+    transition:.4s;
+}
+
+.userInput:hover img{
+    transform:scale(1.08) rotate(5deg);
+    border-color:#22c55e;
+}
+
+.userDeatils{
+    display:flex;
+    flex-direction:column;
+    gap:6px;
+    text-align:left;
+}
+
+.userDeatils h3{
+    color:#fff;
+    font-size:21px;
+    font-weight:700;
+}
+
+.userDeatils p{
+    color:#cbd5e1;
+    font-size:15px;
+}
+
+.userInput::after{
+    content:"View";
+    margin-left:auto;
+    padding:8px 18px;
+    border-radius:999px;
+    background:#38bdf8;
+    color:#fff;
+    font-size:13px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.userInput:hover::after{
+    background:#22c55e;
+}
+
+@media(max-width:650px){
+
+    .container{
+        padding:20px;
+    }
+
+    .heading{
+        font-size:28px;
+    }
+
+    .userInput{
+        padding:15px;
+    }
+
+    .userContainer .userInput img{
+        width:65px;
+        height:65px;
+    }
+
+    .userInput::after{
+        display:none;
+    }
+
+    .userDeatils h3{
+        font-size:18px;
+    }
+
+}
