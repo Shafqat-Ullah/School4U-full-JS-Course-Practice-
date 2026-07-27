@@ -56,26 +56,26 @@
 // // console.log(resultArry);
 
 
-// Select Elements
-const searchInput = document.querySelector("#searchInput");
-const userCards = document.querySelectorAll(".userInput");
+// // Select Elements
+// const searchInput = document.querySelector("#searchInput");
+// const userCards = document.querySelectorAll(".userInput");
 
-// Search Function
-searchInput.addEventListener("input", function () {
-    // Get Search Value
-    const searchValue = searchInput.value.toLowerCase().trim();
+// // Search Function
+// searchInput.addEventListener("input", function () {
+//     // Get Search Value
+//     const searchValue = searchInput.value.toLowerCase().trim();
 
-    // Loop Through All User Cards
-    userCards.forEach(function (card) {
-        // Get User Name and Email
-        const name = card.querySelector("h3").textContent.toLowerCase();
-        const email = card.querySelector("p").textContent.toLowerCase();
+//     // Loop Through All User Cards
+//     userCards.forEach(function (card) {
+//         // Get User Name and Email
+//         const name = card.querySelector("h3").textContent.toLowerCase();
+//         const email = card.querySelector("p").textContent.toLowerCase();
 
-        // Check if Search Value Matches Name or Email
-        if (name.includes(searchValue) || email.includes(searchValue)) {
-            card.style.display = "flex";
-        } else {
-            card.style.display = "none";
-        }
-    });
-});
+//         // Check if Search Value Matches Name or Email
+//         if (name.includes(searchValue) || email.includes(searchValue)) {
+//             card.style.display = "flex";
+//         } else {
+//             card.style.display = "none";
+//         }
+//     });
+// });
