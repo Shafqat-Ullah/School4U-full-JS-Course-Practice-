@@ -1,5 +1,7 @@
 // let userContainer = document.querySelector('.userContainer')
 
+// const { email } = require("zod")
+
 
 // const arr = [
 //     {
@@ -56,7 +58,7 @@
 // // console.log(resultArry);
 
 
-// // Select Elements
+// Select Elements
 // const searchInput = document.querySelector("#searchInput");
 // const userCards = document.querySelectorAll(".userInput");
 
@@ -79,3 +81,22 @@
 //         }
 //     });
 // });
+
+
+
+const searchInput = document.querySelector('#searchInput')
+const UserCard = document.querySelectorAll('.userInput')
+searchInput.addEventListener('input',()=>{
+    const searchValue = searchInput.value.toLowerCase().trim();
+    UserCard .forEach(function(card){
+        const name =card .querySelector('h3').textContent.toLowerCase();
+        const email = card.querySelector('p').textContent.toLowerCase();
+
+        if(name.includes(searchValue)||email.includes(searchValue)){
+            card.style.display='flex';
+
+        }else {
+            card.style.display='none'
+        }
+    })
+})
