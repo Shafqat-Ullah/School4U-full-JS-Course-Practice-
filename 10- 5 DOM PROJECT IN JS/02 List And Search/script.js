@@ -99,4 +99,4 @@ searchInput.addEventListener('input',()=>{
             card.style.display='none'
         }
     })
-})
+});
