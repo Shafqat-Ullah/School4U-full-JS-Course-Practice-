@@ -98,5 +98,5 @@ searchInput.addEventListener('input',()=>{
         }else {
             card.style.display='none'
         }
-    })
+    });
 });
