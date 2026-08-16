@@ -3,6 +3,8 @@
 // let concat = `${a} ${b}`; // template literals 
 // console.log(concat);
 
+const { use } = require("react");
+
 // const { use } = require("react");
 
 
@@ -353,5 +355,8 @@
 
 
 
+// let Name = prompt("Enter Your Name");
 
+// let userName = `@${Name}_${Name.length}`;
 
+// console.log(userName);

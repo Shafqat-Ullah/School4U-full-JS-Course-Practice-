@@ -82,12 +82,47 @@
 // }
 // console.log(fact);
 
-let n = 5;
-for (let i = 1; i<=5; i++){
-    let str = " ";
-    for (let j=1; j<=i ; j++){
-        str = str +j
-    }
-    console.log(str);
+// let n = 5;
+// for (let i = 1; i<=5; i++){
+//     let str = " ";
+//     for (let j=1; j<=i ; j++){
+//         str = str +j
+//     }
+//     console.log(str);
     
+// }
+// simple game 
+
+
+
+let playAgain = 'yes';
+
+while (playAgain === 'yes') {
+    alert("You wake up in the dark forest!");
+
+    let userChoice = prompt("Do you want to go left or right? ");
+
+    if (userChoice === 'left') {
+        alert("You see something shiny in the mud!");
+        userChoice = prompt("Do you pick it up? (yes or no) ");
+        if (userChoice === 'yes') {
+            alert("It is a magical stone! you are teleported to safety, you win!");
+        } else {
+            alert("mar gya tu!")
+        }
+    } else {
+        alert("you find a cave!");
+        userChoice = prompt("Do you enter the cave? (yes or no) ")
+        if (userChoice === 'yes') {
+            alert("you barely escape!")
+        } else {
+            alert("acha raat beetega apka!");
+        }
+    }
+
+    userChoice = prompt("Do you want to play again? (yes or no)")
+    if(userChoice === 'no'){
+        playAgain = 'no';
+        alert("Thanks for playing!")
+    }
 }

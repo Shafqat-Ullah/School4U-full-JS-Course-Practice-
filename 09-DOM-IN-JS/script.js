@@ -425,20 +425,36 @@ let box = document.querySelector('.box')
 
 
 
-let decBtn = document.querySelector('.decbtn');
-let incBtn = document.querySelector('.incbtn');
-let counterValue = document.querySelector('.counterValue');
+// let decBtn = document.querySelector('.decbtn');
+// let incBtn = document.querySelector('.incbtn');
+// let counterValue = document.querySelector('.counterValue');
 
-decBtn.addEventListener('click', () => {
-    let value = Number(counterValue.innerText);
+// decBtn.addEventListener('click', () => {
+//     let value = Number(counterValue.innerText);
 
-    if (value <= 0) {
-        return;
-    }
+//     if (value <= 0) {
+//         return;
+//     }
 
-    counterValue.innerText = value - 1;
-});
+//     counterValue.innerText = value - 1;
+// });
 
-incBtn.addEventListener('click', () => {
-    counterValue.innerText = Number(counterValue.innerText) + 1;
-});
+// incBtn.addEventListener('click', () => {
+//     counterValue.innerText = Number(counterValue.innerText) + 1;
+// });
+
+
+
+
+// let decBtn = document.querySelector('.decBtn')
+// let incBtn = document.querySelector('.incBtn')
+// let value = document.querySelector('.counterValue')
+
+// incBtn.addEventListener('click',()=>{
+    
+    
+// // incBtn.computedStyleMap.backgroundColor='red'
+// })
+// decBtn.addEventListener('click',()=>{
+
+// })

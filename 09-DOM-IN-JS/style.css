@@ -35,3 +35,9 @@ border-radius: 5%;
     background-color: black;
     color: white;
 }
+
+.box{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}

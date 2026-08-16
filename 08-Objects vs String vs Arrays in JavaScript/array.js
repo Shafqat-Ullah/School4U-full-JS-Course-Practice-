@@ -459,9 +459,19 @@
 // let arr = new Array(25).fill(0)
 // console.log(arr);
 
-let n = 40;
-let arr = new Array (40).fill(0)
-console.log(arr);
+// let n = 40;
+// let arr = new Array (40).fill(0)
+// console.log(arr);
+
+
+// 3. Create an array with the given length (n) and store natural numbers from 1 to n.
+
+// let n = 251 ;
+// let arr = new Array(25).fill(0)
+// arr.forEach((iteam , index)=>{
+//     arr[index]=index;
+// })
+// console.log(arr);
 
 
 

@@ -676,20 +676,24 @@
 
 // calculate how many vowels and consonents are in a given string using for of loop
 
-let Data = "shafqat ullah";
-let vowelCount = 0;
-let consonentCount = 0;
+// let Data = "shafqat ullah";
+// let vowelCount = 0;
+// let consonentCount = 0;
 
-for(let ch of Data){
-    if(ch ==="a"||ch==="e"||ch==="i"||ch==="o"||ch ==="u"){
-    vowelCount++
-    }
-    else {
-        consonentCount++
-    }
+// for(let ch of Data){
+//     if(ch ==="a"||ch==="e"||ch==="i"||ch==="o"||ch ==="u"){
+//     vowelCount++
+//     }
+//     else {
+//         consonentCount++
+//     }
+// }
+// console.log("The Total Vowel is :",vowelCount);
+// console.log(`The total consonent is: ${consonentCount}`);
+
+
+let str =("hello this me Shafqat Ullah");
+for(let value of str){
+    console.log(value ,typeof value);
+    
 }
-console.log("The Total Vowel is :",vowelCount);
-console.log(`The total consonent is: ${consonentCount}`);
-
-
-

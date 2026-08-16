@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shopping Cart Counter</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+    padding:40px;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:250px;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+}
+
+.card h2{
+    margin-bottom:10px;
+}
+
+.card p{
+    margin:8px 0;
+}
+
+.counter{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:20px;
+}
+
+.counter button{
+    width:40px;
+    height:40px;
+    font-size:20px;
+    cursor:pointer;
+}
+
+.counter span{
+    margin:0 20px;
+    font-size:22px;
+    font-weight:bold;
+}
+
+</style>
+
+</head>
+<body>
+
+<h1>Shopping Cart</h1>
+
+<div class="container">
+
+<div class="card">
+<h2>Tomato</h2>
+<p>Price : $20 / 500GM</p>
+<p>Stock : 10</p>
+
+<div class="counter">
+<button onclick="decrease(1)">-</button>
+<span id="count1">1</span>
+<button onclick="increase(1)">+</button>
+</div>
+
+</div>
+
+<div class="card">
+<h2>Onion</h2>
+<p>Price : $15 / 500GM</p>
+<p>Stock : 15</p>
+
+<div class="counter">
+<button onclick="decrease(2)">-</button>
+<span id="count2">1</span>
+<button onclick="increase(2)">+</button>
+</div>
+
+</div>
+
+<div class="card">
+<h2>Potato</h2>
+<p>Price : $30 / 1KG</p>
+<p>Stock : 20</p>
+
+<div class="counter">
+<button onclick="decrease(3)">-</button>
+<span id="count3">1</span>
+<button onclick="increase(3)">+</button>
+</div>
+
+</div>
+
+</div>
+
+<script>
+
+let quantity={
+    1:1,
+    2:1,
+    3:1
+};
+
+let stock={
+    1:10,
+    2:15,
+    3:20
+};
+
+function increase(id){
+
+    if(quantity[id] < stock[id]){
+        quantity[id]++;
+        document.getElementById("count"+id).innerText=quantity[id];
+    }
+    else{
+        alert("Stock Limit Reached");
+    }
+
+}
+
+function decrease(id){
+
+    if(quantity[id] > 1){
+        quantity[id]--;
+        document.getElementById("count"+id).innerText=quantity[id];
+    }
+
+}
+
+</script>
+
+</body>
+</html>

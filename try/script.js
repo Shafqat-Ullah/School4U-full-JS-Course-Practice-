@@ -177,7 +177,28 @@
 
 // Ternary Operator [? :] (short form)
 
-let userName = "Shafqat";
-let Passowerd = "";
-let result = userName && Passowerd ? "Login" :"faill"
-console.log(result);
+// let userName = "Shafqat";
+// let Passowerd = "";
+// let result = userName && Passowerd ? "Login" :"faill"
+// console.log(result);
+
+
+// let Name = prompt("Enter Your Name")
+// let userName = `@${Name.trim() .replaceAll(" ","")}_${Name.length}`
+// console.log(userName);
+
+let str = prompt("Enter a string:");
+let char = prompt("Enter a character:");
+
+let count = 0;
+let positions = [];
+
+for (let i = 0; i < str.length; i++) {
+    if (str[i].toLowerCase() === char.toLowerCase()) {
+        count++;
+        positions.push(i);
+    }
+}
+
+console.log("Total Occurrences:", count);
+console.log("Positions:", positions);

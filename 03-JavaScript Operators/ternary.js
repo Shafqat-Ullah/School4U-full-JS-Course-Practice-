@@ -60,11 +60,12 @@
 // Using:
 
 
-let correctUsername  = "Shafqat Ullah";
-let correctPassowerd = "123";
+// let correctUsername  = "Shafqat Ullah";
+// let correctPassowerd = "123";
 
-let userName = "Shafqat Ullah";
-let userPassowerd = "123";
+// let userName = "Shafqat Ullah";
+// let userPassowerd = "123";
 
-let login = (correctUsername == userName && correctPassowerd ===  userPassowerd) ? "login":"try agin";
-console.log(login);
+// let login = (correctUsername == userName && correctPassowerd ===  userPassowerd) ? "login":"try agin";
+// console.log(login);
+
