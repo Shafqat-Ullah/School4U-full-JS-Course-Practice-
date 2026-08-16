@@ -25,14 +25,24 @@ html,body{
     display: flex;
     flex-direction: row-reverse;
     padding: 0 10px ;
+    overflow: hidden;
+    white-space: nowrap;
 }
 .buttonsContainer{
+    user-select: none;
     display: grid;
 grid-template-columns: repeat(4, 1fr);
 gap: 1rem;
 padding: 20px 0px;
 
 
+
+}
+.buttonsContainer button:hover{
+   scale: 1.1; 
+}
+.buttonsContainer button :active{
+    scale: 0.9;
 }
 .buttonsContainer button{
     width: 100%;
@@ -44,7 +54,7 @@ color: white;
 font-size: 20px;
 padding: 25px 0px;
 
-
+transition: linear all 0.2s;
 }
 .buttonsContainer .clearBtn{
 background-color: red;
