@@ -12,6 +12,10 @@ html,body{
     height: 20px;
     border-radius: 50%;
     background-color: red;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transform: translate(-50% 50%);
 }
 .shadowCursor{
     width: 80px;
@@ -19,4 +23,9 @@ html,body{
     border-radius: 50%;
     background-color: red;
     filter: blur(30px);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transform: translate(-50% 50%);
+    transition: all linear 0.1s;
 }
