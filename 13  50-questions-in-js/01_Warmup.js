@@ -3,7 +3,7 @@
 // function lastElement (arr){
     // console.log("hello bro how are you");
 
-const { number } = require("zod")
+const { number, set } = require("zod")
 
     // return arr[arr.length-2]
 //     return arr.pop()
@@ -125,4 +125,32 @@ const { number } = require("zod")
 
 
 // Q13. Write a function that checks if all elements in an array are numbers.
-let arr = [1,2,3,4,5,6,'shafqat',54354];
+// let arr =[1,2,34,"ali",55,77,88]
+// let checkNumber = arr.every(num=>{
+//     return typeof arr ==="number"
+// });
+// console.log(checkNumber);
+
+// Q14 . Build a simple isPrime() function to check if a number is prime.
+
+
+// let primeNUmber = (num=>{
+//     for(let i=2; i<=Math.sqrt(num);i++){
+//        if(num % i=== 0)
+//         return false  
+//     }
+//     return true
+// })
+// console.log(primeNUmber(121));
+
+
+// Q15.. Create a function that removes duplicate values from an array.
+
+let removeDuplicate =(arr=>{
+    let set = new Set(arr)
+    return[...set]
+})
+
+let resultArr = removeDuplicate([1,2,2,"ALI","ALI",2,2,3,4,4,5,6,6])
+console.log(resultArr);
+
