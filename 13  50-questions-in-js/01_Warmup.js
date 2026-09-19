@@ -3,7 +3,7 @@
 // function lastElement (arr){
     // console.log("hello bro how are you");
 
-const { number, set } = require("zod")
+const { number, set, parse } = require("zod")
 
     // return arr[arr.length-2]
 //     return arr.pop()
@@ -146,11 +146,63 @@ const { number, set } = require("zod")
 
 // Q15.. Create a function that removes duplicate values from an array.
 
-let removeDuplicate =(arr=>{
-    let set = new Set(arr)
-    return[...set]
-})
+// let removeDuplicate =(arr=>{
+//     let set = new Set(arr)
+//     return[...set]
+// })
 
-let resultArr = removeDuplicate([1,2,2,"ALI","ALI",2,2,3,4,4,5,6,6])
-console.log(resultArr);
+// let resultArr = removeDuplicate([1,2,2,"ALI","ALI",2,2,3,4,4,5,6,6])
+// console.log(resultArr);
+
+
+// Q16.16. What’s the difference between parseInt and Number()?
+// let a = parseInt("333.444px")
+// let b = ("99.3434")
+// console.log(Number(b));
+ 
+// let a = '232323.23232px';
+// let b = '3453453.343443px'
+// console.log(Number(a));
+// console.log(parseInt(b));
+// console.log(+(a));
+
+
+// 17. Why does 0.1 + 0.2 !== 0.3 in JavaScript?
+// let a = 0.1;
+// let b = 0.2;
+// console.log(a+b);
+// console.log(0.1+0.2 !==0.3);
+// 0.30000000000000004 because they can not convert properly into binary so thats why when we add 0.1+0.2 it the end they show 4 on the decimal so that why
+
+
+// Q18. Explain floating-point precision issues in JavaScript.
+
+
+// 19. How would you handle high-precision decimal math in JS?
+// let sum = +(0.1+0.2).toFixed(4);
+// console.log(sum);
+
+// console.log(sum ===0.3);
+
+
+// 20. What is the difference between slice and splice?
+// let arr =[1,2,3,4,5,6,7]
+// console.log(arr.slice(2,3));
+// console.log(arr.splice(2,3,8));
+
+// let fruits = ["Apple", "Banana", "Mango", "Orange"];
+// let result= fruits.slice(1,2)
+// console.log(result);
+
+// 2 Splice
+// let fruits = ["Apple", "Banana", "Mango", "Orange"];
+// let result = fruits.splice(1,2)
+// console.log(result);
+
+// console.log(fruits);
+// let result = fruits.splice(1,0,"mango","kjsfh","jhsgfuyer")
+// let result =fruits.splice(0,1,"khan")
+// console.log(result);
+// console.log(fruits);
+
 
