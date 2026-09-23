@@ -205,4 +205,48 @@ const { number, set, parse } = require("zod")
 // console.log(result);
 // console.log(fruits);
 
+// Q21Create a function that reverse each word of a given sentence. E.g., Mai hun
+// manas → sanam nuh iam
+
+// let sentence = 'hello this me Shafqat Ullah';
+// let finalResult = sentence.split(' ').reverse().map(word =>{
+//     console.log(word);
+    
+// });
+// console.log(finalResult);
+
+// Q 22 In an array of numbers and strings, only add those numbers which are not strings.
+
+// let arr = [1,'55','hello',1212,22]
+// let sum = 0;
+// arr.forEach(item =>{
+// if(typeof item === 'number'){
+//    sum+=item
+// //    console.log(sum);
+   
+    
+// }
+
+    
+// })
+// console.log(sum);
+
+// Q23. How would you check if a number is an integer?
+
+// let a = 20;
+// if(typeof a === 'number'){
+//     console.log('integer');
+    
+// }
+// else{
+//     console.log('not a number');
+    
+// }
+
+// *********** 2nd method ***********
+let num = 20;
+let num2 = 20.02;
+console.log(Number.isInteger(num)); //Number ture
+console.log(Number.isInteger(num2));  //Flote false
+console.log(num % 1 ===0);// we can also apply this method
 
