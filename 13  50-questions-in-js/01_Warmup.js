@@ -3,7 +3,7 @@
 // function lastElement (arr){
     // console.log("hello bro how are you");
 
-const { number, set, parse } = require("zod")
+const { number, set, parse, string } = require("zod")
 
     // return arr[arr.length-2]
 //     return arr.pop()
@@ -244,9 +244,55 @@ const { number, set, parse } = require("zod")
 // }
 
 // *********** 2nd method ***********
-let num = 20;
-let num2 = 20.02;
-console.log(Number.isInteger(num)); //Number ture
-console.log(Number.isInteger(num2));  //Flote false
-console.log(num % 1 ===0);// we can also apply this method
+// let num = 20;
+// let num2 = 20.02;
+// console.log(Number.isInteger(num)); //Number ture
+// console.log(Number.isInteger(num2));  //Flote false
+// console.log(num % 1 ===0);// we can also apply this method
+
+
+// Q24. Write a JavaScript function that reverse a number.
+// let num = [1,2,3,4,5,6,7,8,9];
+// function reverseNumber(num){
+// console.log(num.reverse());
+
+// }
+// reverseNumber(num)
+// reverseNumber(num)
+
+// Q25. Write a javascript function that returns a passed string with letters in alphabetical order.
+
+// let arr = ['dog','cat','mongo','apple'];
+// let sort = arr.sort();
+// console.log(arr);
+
+// let str = "Shafqat Ullah Salih";
+// function sortIn (str){
+//    return (str.split(' ').sort().join());
+  
+   
+    
+// }
+
+// let result = sortIn(str)
+// console.log(result);
+
+// Q26. Write a Javascript function that accepts a string as a parameter and conversts the first
+// // letter of each word of the string in upper case.
+
+// let name = "Hello This Shafqat Ullah";
+
+// let capitalize = (string) => {
+//     return string.split(" ").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
+// };
+
+// console.log(capitalize(name));
+
+// let str = 'hello this me shafqat ullah';
+// let capitalize = (string)=>{
+//     return string.split(" ").map(function(word){
+//         return word[0].toUpperCase()+word.slice(1);
+//     })
+// }
+// console.log(capitalize(str));
 
