@@ -296,3 +296,33 @@ const { number, set, parse, string } = require("zod")
 // }
 // console.log(capitalize(str));
 
+// Q27 Write a javascript function to get the first element of an array. Passing a parameter 'n' will
+// return the first 'n' elements of the array.
+// function getArryElement (arr,n) {
+//     if(!n){
+//         return arr [0]
+
+//     }else if(n>arr.length){
+//         console.log("itna  element to arry ma present nahi ha");
+        
+//     }
+//     else{
+//         return arr.slice(0,n)
+//     }
+// }
+// let result = getArryElement([2,3,4,5,6],5);
+// console.log(result);
+
+
+
+// Q 28. Write a javascript function to get the number of occurrences of each letter in specified
+// string.
+
+let  str = 'Shafqat Ullah Slaih';
+function getOccurence(string){
+    string.split(" ").forEach (letter =>{
+        console.log(letter);
+        
+    })
+}
+getOccurence(str);
