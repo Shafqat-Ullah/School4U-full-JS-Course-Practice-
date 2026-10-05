@@ -3,7 +3,7 @@
 // function lastElement (arr){
     // console.log("hello bro how are you");
 
-const { number, set, parse, string } = require("zod")
+// const { number, set, parse, string } = require("zod")   
 
     // return arr[arr.length-2]
 //     return arr.pop()
@@ -318,11 +318,71 @@ const { number, set, parse, string } = require("zod")
 // Q 28. Write a javascript function to get the number of occurrences of each letter in specified
 // string.
 
-let  str = 'Shafqat Ullah Slaih';
-function getOccurence(string){
-    string.split(" ").forEach (letter =>{
-        console.log(letter);
+// function countLetters(str) {
+//     let count = {};
+
+//     for (let i = 0; i < str.length; i++) {
+//         let letter = str[i];
+
+//         if (count[letter]) {
+//             count[letter]++;
+//         } else {
+//             count[letter] = 1;
+//         }
+//     }
+
+//     return count;
+// }
+
+// console.log(countLetters("hello"));
+
+// let str = 'Shafqat Ullah';
+
+// function getOccurence(string){
+// let obj ={};
+
+//     string.split('').forEach(element=>{
+//         if(obj.hasOwnProperty(element)){
+            
+//            obj[element]++
+//         }
+//         else{
+//             obj[element]=1;
+            
+//         }
         
-    })
+//     });
+//     // console.log(obj);
+//     let arr = Object.entries(obj)
+//     console.log(arr);
+    
+    
+// }
+// getOccurence(str)
+
+// Q29. write a javascript program to find the most frequent item of an array.
+
+ let str = [1,2,1,3,4,5,2,4,5,2,3];
+
+function getOccurence(string){
+let freqobj ={};
+
+    // string.split('').
+    string.forEach(element=>{
+        if(freqobj.hasOwnProperty(element)){
+            
+           freqobj[element]++
+        }
+        else{
+            freqobj[element]=1;
+            
+        }
+        
+    });
+    // console.log(obj);
+    let arr = Object.entries(freqobj)
+    console.log(arr);
+    
+    
 }
-getOccurence(str);
+getOccurence(str)
