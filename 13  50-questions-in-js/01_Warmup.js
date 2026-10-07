@@ -362,27 +362,27 @@
 
 // Q29. write a javascript program to find the most frequent item of an array.
 
- let str = [1,2,1,3,4,5,2,4,5,2,3];
+//  let str = [1,2,1,3,4,5,2,4,5,2,3];
 
-function getOccurence(string){
-let freqobj ={};
+// function getOccurence(string){
+// let freqobj ={};
 
-    // string.split('').
-    string.forEach(element=>{
-        if(freqobj.hasOwnProperty(element)){
+//     // string.split('').
+//     string.forEach(element=>{
+//         if(freqobj.hasOwnProperty(element)){
             
-           freqobj[element]++
-        }
-        else{
-            freqobj[element]=1;
+//            freqobj[element]++
+//         }
+//         else{
+//             freqobj[element]=1;
             
-        }
+//         }
         
-    });
-    // console.log(obj);
-    let arr = Object.entries(freqobj)
-    console.log(arr);
+//     });
+//     // console.log(obj);
+//     let arr = Object.entries(freqobj)
+//     console.log(arr);
     
     
-}
-getOccurence(str)
+// }
+// getOccurence(str)
