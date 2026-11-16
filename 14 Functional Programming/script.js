@@ -62,17 +62,26 @@
 // increment()
 // console.log(total);
 
-let obj ={
-    name:"Shafqat Ullah",
-    age: 25
-}
-function changeName(name){
-    obj.name = name;
-    let newObj ={...obj};
-    console.log(name);
+// let obj ={
+//     name:"Shafqat Ullah",
+//     age: 25
+// }
+// function changeName(name){
+//     obj.name = name;
+//     let newObj ={...obj};
+//     console.log(name);
     
-}
-console.log('The 1st Name of the obj is :',obj);
+// }
+// console.log('The 1st Name of the obj is :',obj);
 
-changeName("khan");
-console.log(obj);
+// changeName("khan");
+// console.log(obj);
+
+let list = ['mongo','apple','banana','grapes'];
+let add =  (itemPush)=>{
+    list.push(itemPush)
+}
+console.log(list);
+add('gava');
+add('kiwi');
+console.log(list);
