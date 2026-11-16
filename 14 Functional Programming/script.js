@@ -77,11 +77,41 @@
 // changeName("khan");
 // console.log(obj);
 
-let list = ['mongo','apple','banana','grapes'];
-let add =  (itemPush)=>{
-    list.push(itemPush)
-}
-console.log(list);
-add('gava');
-add('kiwi');
-console.log(list);
+// let list = ['mongo','apple','banana','grapes'];
+// let add =  (itemPush)=>{
+//     list.push(itemPush)
+// }
+// console.log(list);
+// add('gava');
+// add('kiwi');
+// console.log(list);
+
+// let list =['cat','dog','cow'];
+// let add = (pushItem)=>{
+//     list.push(pushItem);
+// }
+// console.log(list);
+// add('kingroo');
+// console.log(list);
+
+
+// i want to remove the last item from the list using functional programming approach.You can remove the last item from a list using a functional programming approach by creating a new array that excludes the last item. Here's how you can do it:
+
+// let list = ['cat', 'dog', 'cow'];
+
+// let removeLastItem = (arr) => {
+//     return arr.slice(0, -1); // Create a new array excluding the last item
+// };
+// let newList = removeLastItem(list);
+// console.log('Original List:', list);
+// console.log('New List after removing last item:', newList);
+
+
+// let arr =[ 'apple','mango','banana','grapes']
+// function removeLastItem(arr){
+//     let newarr =arr.slice(0,-1);
+//     return newarr;
+// }
+// let newarr = removeLastItem(arr);
+// console.log(newarr);
+
